@@ -63,3 +63,19 @@ var Calculator = {
 
 // Run the addListeners function to get everything working.
 Calculator.addListeners();
+
+
+function strongEnough(earthquake, age) {
+  //your code here
+  var buildingStrength = 1000 * Math.exp(-0.01 * age);
+  var quakeStrength = earthquake.reduce(function(a, b) {
+    return a.concat(b).reduce(function(a, b) {
+      return a * b;
+    }, []);
+  });
+  if (buildingStrength > quakeStrength) {
+    return 'Safe!';
+  } else {
+    return 'Needs Reinforcement!';
+  }
+}

@@ -1,0 +1,14 @@
+<h1><%= @book.title %> (<%= @book.year %>)</h1>
+
+<% unless @book.author.nil? %>
+<p>Author: <%= link_to @book.author.name, @book.author %></p>
+<% end %>
+<%= image_tag(@book.cover, :class => 'feature') %>
+<h3>Genre</h3>
+<%= @book.genre %>
+
+<h3>Synopsis</h3>
+<p><%= @book.synopsis %></p>
+
+<p><%= link_to 'Edit Book', edit_book_path %></p>
+<p><%= link_to 'Delete Book', @book, :method => :delete %></p>

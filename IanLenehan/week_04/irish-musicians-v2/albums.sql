@@ -1,0 +1,6 @@
+CREATE TABLE albums (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  year INTEGER,
+  image TEXT
+);

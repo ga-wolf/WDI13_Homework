@@ -1,0 +1,4 @@
+<h1>Oceans of the World</h1>
+<% @oceans.each do |ocean| %>
+<p class="list shake"><%= link_to(ocean.name, "/oceans/#{ocean.id}") %></p>
+<% end %>

@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch|Noto+Sans);
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+h1 {
+  margin-top: 0px;
+  padding: 10px 0 0 10px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 28px;
+  opacity: 0.9;
+}
+
+.poster {
+  opacity: 0.8
+}
+
+.poster:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.left-container {
+  display: inline-block;
+  width: 45%;
+  margin: 20px 0 0 10px;
+}
+
+#image {
+  display: inline-block;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+#image img {
+  margin-left: 100px;
+}
+
+.grey_div {
+  background-color: gainsboro;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+}
+
+#button {
+  background-color: lemonchiffon;
+  opacity: 0.6;
+  border: none;
+  box-sizing: border-box;
+}
+
+#button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+  width: 150px;
+  border: none;
+  box-sizing: border-box;
+  padding-left: 5px;
+  font-size: 16px;
+  margin: 0 5px 0 5px;
+}

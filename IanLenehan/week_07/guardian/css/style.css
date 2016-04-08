@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: rgba(51, 51, 51, 0.05);
+  font-family: Georgia;
+}
+h1 {
+  font-family: Georgia;
+  color: rgb(170, 220, 230);
+  font-size: 38px;
+}
+
+.title {
+  margin-top: 0;
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+}
+
+.topic {
+  display: inline-block;
+  left: 20px;
+  color: white;
+  width: 50%;
+  text-align: left;
+  font-size: 28px;
+}
+
+h2, hr {
+  color: #951c55;
+}
+
+#title {
+  color: white;
+}
+nav {
+  background: #005689;
+  height: 70px;
+  padding: 10px;
+}
+.sub-nav {
+  background: #b82266;
+  height: 50px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  max-height: 100vh;
+}
+input {
+  margin-top: 10px;
+  border: none;
+  padding: 8px 15px;
+  background: white;
+  border: 0px solid #dbdbdb;
+}
+#from-date {
+  padding: 5.5px 15px;
+}
+label {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.95);
+  margin-left: 15px;
+  margin-right: 5px;
+}
+#button {
+  position: relative;
+  padding: 8px 15px;
+  left: -8px;
+  border: none;
+  background-color: #005689;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: rgb(170, 220, 230);
+  color: #005689;
+}
+
+a {
+  color: #005689;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  border-color: #6e99b3;
+}

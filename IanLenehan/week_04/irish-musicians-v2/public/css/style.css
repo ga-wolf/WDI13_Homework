@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Irish+Grover);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+h1 {
+  font-size: 28px;
+  font-family: 'Irish Grover', cursive;
+  color: orange;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Irish Grover', cursive;
+  color: white;
+}
+
+body {
+  background-color: white;
+  font-family: Verdana;
+}
+
+.container {
+  width: 660px;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 30px;
+}
+
+nav {
+  margin-top: 0px;
+  background: rgb(46, 204, 113);
+}
+
+.navheader {
+  color: white;
+  display: inline-block;
+  width: 28%;
+  margin-left: 15px;
+}
+
+nav ul {
+  padding-right: 10px;
+  color: white;
+  align-items: right;
+  display: inline-block;
+  text-align: right;
+  width: 65%;
+
+}
+nav li {
+  font-family: Verdana;
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.container a {
+  color: rgb(46, 204, 113);
+  text-decoration: none;
+  font-family: Verdana;
+}
+
+.container a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  margin: 10px;
+}
+
+.list a {
+padding-left: 10px;
+}
+
+.thumb {
+  height: 80px;
+  width: 100px;
+  border-radius: 10%;
+}
+
+form {
+  display: block;
+  margin-top: 50px;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+input {
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.button {
+  width: 200px;
+}
+
+.pageimage {
+  width: 550px;
+}
+
+.details {
+  margin-top: 20px;
+}

@@ -1,0 +1,6 @@
+<h1>All Books</h1>
+
+<% @books.each do |book| %>
+<p><%= image_tag book.cover, :class => 'thumb' %>
+  <%= link_to(book.title, book) %> </p>
+<% end %>

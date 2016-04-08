@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url('http://www.zikonews.com/wp-content/uploads/2014/04/sky-grass-background-reduced2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.discoOverlay {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: none;
+  opacity: 0.5;
+  background-color: none;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: 100000000;
+}
+
+.spawnCat {
+  position: absolute;;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: orange;
+}
+
+button {
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}

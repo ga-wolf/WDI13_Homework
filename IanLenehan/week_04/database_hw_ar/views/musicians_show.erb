@@ -1,0 +1,13 @@
+<h1> <%= @musician.name %> </h1>
+
+<a href="/musicians/<%= @musician.id %>/edit">Edit</a>
+<a href="/musicians/<%= @musician.id %>/delete">Delete</a>
+
+<div class="details">
+<img class="pageimage" src="<%= @musician.image %>" alt="">
+<p>Year Formed: <%= @musician.year_formed %> </p>
+<p>Genre: <%= @musician.genre %> </p>
+<iframe width="550" height="365"
+src="<%= @musician.video %>">
+</iframe>
+</div>

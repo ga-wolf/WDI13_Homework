@@ -1,0 +1,10 @@
+<h1><%= @beer.manufacturer %> <%= @beer.name %></h1>
+
+<div class="beer_show_item">
+  <img class="beer_show_image" src="<%= @beer.image_url %>" alt="">
+  <div class="beer_show_info">
+    <p><strong>Style:</strong> <%= @beer.style %></p>
+    <p><strong>Alcohol Content:</strong> <%= @beer.alcohol_content %>% ABV</p>
+    <p class="edit_links"><a href="/beers/<%= @beer.id %>/edit">Edit</a><a href="/beers/<%= @beer.id %>/delete">Delete</a></p>
+  </div>
+</div>

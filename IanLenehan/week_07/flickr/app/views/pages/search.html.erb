@@ -1,0 +1,15 @@
+<nav>
+
+<h1>Shit Flickr</h1>
+
+</nav>
+<div class="search-bar">
+
+<%= form_tag root_path, :id => 'search' do %>
+  <%= search_field_tag :query, 'baseball' %>
+  <%= submit_tag 'Search' %>
+<% end %>
+
+</div>
+
+<div id="results"></div>

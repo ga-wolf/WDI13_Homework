@@ -1,0 +1,19 @@
+<h1>Edit Beer</h2>
+<form action="/beers/<%= @beer.id %>" method="post">
+  <label>Manufacturer: </label>
+  <input name="manufacturer" value="<%= @beer.manufacturer %>">
+
+  <label>Name: </label>
+  <input name="name" value="<%= @beer.name %>">
+
+  <label>Style: </label>
+  <input name="style" value="<%= @beer.style %>">
+
+  <label>Alcohol Content: </label>
+  <input type="number" name="alcohol_content" value="<%= @beer.alcohol_content %>">
+
+  <label>Image URL: </label>
+  <input type="url" name="image_url" value="<%= @beer.image_url %>">
+
+  <input type="submit" value="Update Beer">
+</form>

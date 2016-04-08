@@ -1,0 +1,7 @@
+  <h1>All Mountains</h1>
+
+  <% @mountains.each do |mountain| %>
+    <div class="mountain_item">
+      <a href="/mountains/<%= mountain["id"] %>"><img src="<%= mountain["image"]  %>"></a>
+    </div>
+  <% end %>

@@ -1,0 +1,7 @@
+<% unless @movies["Response"] == "False" %>
+  <ul>
+    <% @movies["Search"].each do |m| %>
+      <li><a href="/movie/<%= m['imdbID'] %>"> <%= m['Title'] %></a></li>
+    <% end %>
+  <ul>
+<% end %>

@@ -1,0 +1,23 @@
+<h2>Edit Musician</h2>
+
+<form action="/musicians/<%= @musician.id %>" method="post">
+  <label>Musician Name:</label>
+  <input type="text" name="name" value="<%=@musician.name %>">
+<br>
+<label>Genre:</label>
+<select name="genre">
+    <option value="rock" <% if @musician.genre == "rock" %> selected <% end %>>Rock</option>
+    <option value="pop" <% if @musician.genre == "pop" %> selected <% end %>>Pop</option>
+    <option value="traditional" <% if @musician.genre == "traditional" %> selected <% end %> >Traditional</option>
+    <option value="country" <% if @musician.genre == "country" %> selected <% end %>>Country</option>
+    <option value="rnb" <% if @musician.genre == "rnb" %> selected <% end %>>RnB</option>
+</select>
+<br>
+  <label>Image:</label>
+  <input type="url" name="image" value="<%=@musician.image %>">
+<br>
+  <label>Music Video:</label>
+  <input type="url" name="video" value="<%=@musician.video %>">
+<br>
+  <input type="submit" value="Update Musician">
+</form>

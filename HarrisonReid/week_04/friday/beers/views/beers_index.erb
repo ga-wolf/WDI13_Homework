@@ -1,0 +1,7 @@
+<h1>All The Beers</h1>
+
+<% @beers.each do |beer| %>
+  <div class="beer_item">
+    <a href="/beers/<%= beer.id %>"><img src="<%= beer.image_url  %>"></a>
+  </div>
+<% end %>
