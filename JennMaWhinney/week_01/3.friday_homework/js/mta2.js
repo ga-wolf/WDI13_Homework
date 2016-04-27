@@ -14,19 +14,19 @@ var totalStops = 0;
 var planTrip = function(lineNameDeparture, lineStationDeparture,    /*See original method below, didn't work terribly well*/
     lineNameArrival, lineStationArrival) {
     if (!subway[lineNameDeparture]) {
-        console.log("The departure line is invalid")
+        console.log("The departure line is invalid");
         return;
     }
     if (!subway[lineNameDeparture].includes(lineStationDeparture)) {
-        console.log("The departure station is invalid")
+        console.log("The departure station is invalid");
         return;
     }
     if (!subway[lineNameArrival]) {
-        console.log("The arrival line is invalid")
+        console.log("The arrival line is invalid");
         return;
     }
     if (!subway[lineNameArrival].includes(lineStationArrival)) {
-        console.log("The arrival station is invalid")
+        console.log("The arrival station is invalid");
         return;
     } else {
 
@@ -62,8 +62,8 @@ var compareInitialLineToFinalLine = function(startLine, endLine) {
         if (startStopNumber === endStopNumber) {
             console.log('You are already at your destination!');
         } else {
-            sameLine(startLine)
-        };
+            sameLine(startLine);
+        }
     } else {
         logToUnion(startLine);
         logFromUnion(endLine);
@@ -80,8 +80,8 @@ var sameLine = function(lineName) {
         }
         console.log('These are your total stops: ' + totalStops);
     } else {
-        for (var i = startStopNumber; i >= endStopNumber; i--) {
-            console.log(subway[lineName][i]);
+        for (var n = startStopNumber; n >= endStopNumber; n--) {
+            console.log(subway[lineName][n]);
             totalStops++;
         }
         console.log('These are your total stops: ' + totalStops);
@@ -91,29 +91,29 @@ var sameLine = function(lineName) {
 var logToUnion = function(lineName) {
     console.log('These are the stops to Union Square: ');
     if (startStopNumber < subway[lineName].indexOf("Union Square")) {
-        for (var i = startStopNumber; i <= subway[lineName].indexOf("Union Square"); i++) {
-            console.log(subway[lineName][i]);
+        for (var j = startStopNumber; j <= subway[lineName].indexOf("Union Square"); j++) {
+            console.log(subway[lineName][j]);
             totalStops++;
         }
     } else {
-        for (var i = startStopNumber; i >= subway[lineName].indexOf("Union Square"); i--) {
-            console.log(subway[lineName][i]);
+        for (var k = startStopNumber; k >= subway[lineName].indexOf("Union Square"); k--) {
+            console.log(subway[lineName][k]);
             totalStops++;
         }
     }
-}
+};
 
 var logFromUnion = function(lineName) {
     console.log('Change at Union Square and continue your journey on the ' + lineName + '. Your stops will be: ');
     if (endStopNumber <= subway[lineName].indexOf("Union Square")) {
-        for (var i = subway[lineName].indexOf("Union Square") - 1; i >= endStopNumber; i--) {
-            console.log(subway[lineName][i]);
+        for (var l = subway[lineName].indexOf("Union Square") - 1; l >= endStopNumber; l--) {
+            console.log(subway[lineName][l]);
             totalStops++;
         }
         console.log('Your total number of stops is: ' + (totalStops - 1));
     } else {
-        for (var i = subway[lineName].indexOf("Union Square") + 1; i <= endStopNumber; i++) {
-            console.log(subway[lineName][i]);
+        for (var m = subway[lineName].indexOf("Union Square") + 1; m <= endStopNumber; m++) {
+            console.log(subway[lineName][m]);
             totalStops++;
         }
         console.log('These are your total stops: ' + totalStops);

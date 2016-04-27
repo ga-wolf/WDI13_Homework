@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Fun</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyBbIVdZwcvspdF6cSb0XBMzh2fDoZjQ78E&callback=initMap" async defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>API Fun</h1>
+  </header>
+
+<section class="form-container">
+  <form action="" id="search-form">
+    <input type="search" id="search-input" value="Satantango">
+    <button id="go" class="btn">Go</button>
+  </form>
+</section>
+
+<section class="display-ip__container">
+  <div class="display-ip__heading">
+    <h3>Your IP Address</h3>
+  </div>
+  <div class="display-ip__results">
+    <p>IP address: <span class="display-ip__results--ip">Searching...</span></p>
+    <p>City: <span class="display-ip__results--city">Searching...</span></p>
+
+  </div>
+</section>
+
+<section class="display-weather__container">
+  <div class="display-weather__heading">
+    <h3>Your Weather</h3>
+  </div>
+  <div class="display-weather__results">
+    <p>Description: <span class="display-weather__description"></span></p>
+    <p>Temperature: <span class="display-weather__temp"></span></p>
+    <p>Humidity: <span class="display-weather__humidity"></span></p>
+  </div>
+</section>
+
+<section class="display-map__container">
+  <div id="map" class="map"></div>
+</section>
+
+<section class="display-guardian__container">
+  <div class="display-guardian__heading">
+    <img src="img/guardian-logo.svg" alt="" class="logo">
+    <span id="display-guardian__toggle" class="display-guardian__toggle fa fa-arrow-up"></span>
+  </div>
+  <div class="display-guardian__results">
+  </div>
+
+</section>
+
+</body>
+</html>

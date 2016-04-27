@@ -1,0 +1,11 @@
+<h1><%= @book.title %></h1>
+
+<%= image_tag(@book.image, :class => 'thumb') %>
+<% unless @book.author.nil? %>
+  <p>Author: <%= link_to @book.author.name, @book.author %></p>
+<% end %>
+<p>Year: <%= @book.year %></p>
+<p>Description: <%= @book.description %></p>
+
+<%= link_to("Edit Book", edit_book_path(@book)) %>
+<%= link_to("Delete Book", @book, :method => :delete ) %>

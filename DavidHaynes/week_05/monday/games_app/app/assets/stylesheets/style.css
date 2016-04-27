@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  background-image: url(/assets/backgrounds.jpg);
+  background-size: cover;
+  font-family: "Indie Flower";
+}
+
+header {
+  height: 80px;
+  text-align: center;
+}
+
+div.gameboard {
+  text-align: center;
+
+}
+
+img.home {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  position: relative;
+  top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  top: -50px;
+}
+
+a {
+  font-size: 25px;
+  color: white;
+  margin: 5px 50px 0 50px;
+}
+
+div.eight {
+  margin: 0 auto;
+  height: 550px;
+  width: 550px;
+  text-align: center;
+  background-image: url(/assets/magic8ball.png);
+  background-size: cover;
+  position: relative;
+  top: -70px;
+}
+
+div.question {
+  height: 230px;
+  width: 280px;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.9);
+  padding-top: 50px;
+  top: 140px;
+  font-size: 20px;
+}
+
+input.question {
+  width: 200px;
+  height: 25px;
+  background-color: #FD9B27;
+  font-size: 20px;
+}
+
+input.submit {
+  background-color: #FC6621;
+  color: white;
+  font-size: 20px;
+}
+
+p.answer {
+  font-size: 30px;
+}
+
+div.secret {
+  margin: 0 auto;
+  text-align: centre;
+  height: 550px;
+  width: 550px;
+  background-image: url(/assets/gift.png);
+  background-size: cover;
+  position: relative;
+  top: -100px;
+}
+
+div.count {
+  font-size: 25px;
+  position: relative;
+  top: 165px;
+}
+
+div.multi {
+  font-size: 25px;
+  position: relative;
+  top: 200px;
+}
+
+
+button.secret {
+  height: 100px;
+  width: 400px;
+  font-size: 30px;
+  border-radius: 25%;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  background-color: papayawhip;
+  position: relative;
+  top: 250px;
+}
+
+button.rps {
+  height: 70px;
+  width: 300px;
+  font-size: 30px;
+  border-radius: 25%;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  background-color: papayawhip;
+  position: relative;
+  top: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div.rps {
+  margin: 0 auto;
+  width: 95%;
+  height: 600px;
+  background-image: url(/assets/rps.gif);
+  background-size: cover;
+}
+
+div.rps_result {
+  margin: 0 auto;
+  height: 565px;
+  width: 450px;
+  background-image: url(/assets/hand.png);
+  background-size: cover;
+}
+
+div.result_info {
+  position: relative;
+  width: 300px;
+  top: 160px;
+  left: 130px;
+}

@@ -1,0 +1,18 @@
+
+<p><%= link_to 'Back', root_path%></p>
+
+<div class="showpage">
+
+<h2> Create new Ocean </h2>
+
+<form action="<%= oceans_path %>" method="post">
+<p><label>Name:</label> <input type="text" name="name"></p>
+<p><label>Location:</label> <input type="text" name="location"></p>
+<p><label>Area: </label> <input type="number" name="area"></p>
+<p><label>Volume:</label><input type="number" name="volume"></p>
+<p><label>Deep:</label><input type="number" name="deep"></p>
+<p><label>Coastline:</label><input type="number" name="coastline"></p>
+
+<button>Submit</button>
+</form>
+</div>

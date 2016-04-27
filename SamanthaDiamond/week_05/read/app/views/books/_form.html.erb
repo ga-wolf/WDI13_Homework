@@ -1,0 +1,26 @@
+<%= form_for @book do |f| %>
+  <fieldset>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :publication %>
+    <%= f.text_field :publication, :placeholder => 'year e.g. 2008' %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :genre %>
+    <%= f.text_field :genre %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :image %>
+    <%= f.url_field :image %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.submit %>
+  </fieldset>
+
+<% end %>

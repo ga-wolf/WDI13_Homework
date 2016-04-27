@@ -1,0 +1,37 @@
+@keyframes fade-in-and-out{
+0%{
+  opacity: 0;
+  transform: rotate(0deg);
+}
+100%{
+  opacity:1;
+  transform: rotate(360deg);
+}
+}
+h1{
+  animation: fade-in-and-out 2s infinite;
+}
+
+body{
+  background: hotpink;
+  color: white;
+}
+
+.container{
+  width: 80%;
+  margin: 80px auto;
+  padding: 10%;
+  border: 1px solid black;
+  box-shadow: 20px 10px 10px 20px white;
+}
+h1{
+  text-shadow: 5px 5px 10px  black;
+  transition: all 1s linear 2s;
+}
+h1:hover{
+  color: red;
+  font-size: 50px;
+  cursor: pointer;
+
+  transition: all 1s;
+}

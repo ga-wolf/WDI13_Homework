@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1><%= @author.name %></h1>
+        <%= image_tag(@author.image, :class => 'feature') %>
+        <ul>
+          <li class="bullet"><%= @author.nationality %></li>
+          <li class="bullet"><%= @author.dob.strftime '%A %e %B, %Y' unless @author.dob.nil? %></li>
+        </ul>
+
+        <p>
+        <%= link_to 'Edit Artist', edit_author_path(@author) %>
+        <%= link_to 'Delete Artist', @author, :method => :delete %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

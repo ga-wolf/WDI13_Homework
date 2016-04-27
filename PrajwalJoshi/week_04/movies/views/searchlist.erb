@@ -1,0 +1,10 @@
+
+
+<!-- <%= @poster %>
+<%= @title %>
+<%= @year%> -->
+<ol>
+<% @list.each do |elem| %>
+<li><a href="/show?movie=<%=elem["Title"]%>"><%= elem["Title"] %> (<%=elem["Year"]%>)</a></li>
+<% end %>
+</ol>

@@ -1,0 +1,13 @@
+<h2>Edit Cocktail</h2>
+
+<form action="/cocktails/<%= @cocktail[0]['id']%>" method="post">
+
+<label>Name</label>
+<input name="name" value = "<%= @cocktail[0]["name"]%>">
+<label>Spirit</label>
+<input name="spirits" value = "<%= @cocktail[0]["spirits"]%>">
+<label>Image</label>
+<input type="url" name="image" value="<%= @cocktail[0]["image"]%>">
+<input type="submit" value="Update Cocktail">
+
+</form>

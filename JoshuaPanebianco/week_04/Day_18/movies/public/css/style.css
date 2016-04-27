@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.header {
+  background-color: #9b59b6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  color: white;
+}
+
+.text-box {
+  padding: 5px;
+}
+
+.send {
+  padding:5px;
+  background: #2ecc71;
+  color: white;
+  border: 1px solid #2ecc71;
+  width: 75px;
+  font-size: 14px;
+}
+
+
+input {
+  font-size: 14px;
+}

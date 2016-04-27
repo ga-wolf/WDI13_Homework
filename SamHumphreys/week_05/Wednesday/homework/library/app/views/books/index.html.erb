@@ -1,0 +1,11 @@
+<h1>Library Catalogue</h1>
+<div class="content">
+  <% @books.each do |book| %>
+    <div class="index">
+      <p><%= link_to(image_tag(book.image, :class => 'thumb')) %></p>
+      <p><%= link_to(book.title, book) %></p>
+    </div>
+  <% end %>
+</div>
+
+<p class="addNew"><%= link_to 'Add New Book', new_book_path %></p>

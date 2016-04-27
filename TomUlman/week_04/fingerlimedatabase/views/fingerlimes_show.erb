@@ -1,0 +1,22 @@
+<div class="box">
+<h2><%= @fingerlime[0]['name'] %></h2>
+  <p>
+    Sweetness: <%= @fingerlime[0]['sweetness'] %>
+  </p>
+  <p>
+    Bite: <%= @fingerlime[0]['bite'] %>
+  </p>
+  <p>
+    Pop: <%= @fingerlime[0]['pop'] %>
+  </p>
+
+  <img src=" <%= @fingerlime[0]["image"] %>">
+</div>
+
+<div class="box">
+<p>
+<a href="/fingerlimes/<%=@fingerlime[0]['id']%>/delete">Delete</a>
+<a href="/fingerlimes/<%=@fingerlime[0]['id']%>/edit">Edit</a>
+<a href="/fingerlimes">Back To index</a>
+</p>
+</div>

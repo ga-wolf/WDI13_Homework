@@ -1,0 +1,10 @@
+<h2>Edit Mountain</h2>
+
+<form action="/mountains" method="post">
+  <p><label>Name: <input type="text" name="name" value="<%= @mountain.name %>"></label></p>
+  <p><label>Image: <input type="url" name="image" value="<%= @mountain.image %>"></label></p>
+  <p><label>Location: <input type="text" name="location" value="<%= @mountain.location %>"></label></p>
+  <p><label>First ascent: <input type="text" name="ascent" value="<%= @mountain.ascent %>"></label></p>
+  <p><label>Height: <input type="number" name="height" value="<%= @mountain.height %>"></label></p>
+  <button>Create Planet</button>
+</form>

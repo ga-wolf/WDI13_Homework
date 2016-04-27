@@ -1,0 +1,21 @@
+body {
+  background-image: url("/assets/carnival.jpg")
+}
+
+.col-md-4 {
+  color: white;
+}
+
+p.eightball {
+  text-align: center;
+  color: white;
+}
+
+h2.eightball {
+  text-align: center;
+  color: black;
+}
+
+form {
+  text-align: center;
+}

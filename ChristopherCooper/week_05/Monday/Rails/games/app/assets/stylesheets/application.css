@@ -1,0 +1,28 @@
+body {
+  background-color: gainsboro;
+}
+
+#container {
+  width: 100vw;
+  text-align: center;
+}
+
+.game-selection a {
+  display: block;
+  text-decoration: none;
+  font-size: 20pt;
+  color: green;
+  line-height: 100px;
+}
+
+.magic-question-field {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.magic-question-field:focus {
+  outline: none;
+}
+
+.magic-question-submit:input[type="submit"]:disabled {
+}

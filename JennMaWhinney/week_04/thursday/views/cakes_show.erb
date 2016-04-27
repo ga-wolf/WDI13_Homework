@@ -1,0 +1,16 @@
+<div class="container2">
+
+    <h2><%= @cake[0]['name'] %></h2>
+
+
+    <img src="<%= @cake[0]['image'] %>">
+    <div class="form">
+    <p>
+      Recipe:
+      <%= @cake[0]['recipe'] %>
+    </p>
+
+    <a href="/cakes/<%= @cake[0]['id'] %>/delete">Delete</a>
+    <a href="/cakes/<%= @cake[0]['id'] %>/edit">Edit</a>
+  </div>
+</div>

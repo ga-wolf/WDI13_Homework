@@ -1,0 +1,11 @@
+<h2><%=@game.title%></h2>
+<p>
+  Genre: <%= @game.genre%>
+</p>
+<p>
+  Console: <%= @game.console%>
+</p>
+<img src="<%=@game.image%>" alt="">
+
+<a href="/games/<%=@game.id%>/delete">Delete</a>
+<a href="/games/<%=@game.id%>/edit">Edit</a>

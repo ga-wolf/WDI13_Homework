@@ -1,0 +1,26 @@
+<!-- <h1>Books#new</h1>
+<p>Find me in app/views/books/new.html.erb</p> -->
+
+<h1>New Book</h1>
+<%= form_for @book do |f| %>
+<fieldset>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</fieldset>
+
+  <fieldset>
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :image %>
+    <%= f.url_field :image %>
+  </fieldset>
+
+  <fieldset>
+  <%= f.submit %>
+  </fieldset>
+
+
+  <% end %>

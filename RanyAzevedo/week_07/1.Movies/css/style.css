@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+div.container{
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+body{
+  background: mintcream;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+  letter-spacing: .4em;
+  font-family: 'Poiret One', cursive;
+  text-shadow: 5px 4px 4px gainsboro;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 6px 4px -4px black;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  letter-spacing: .2em;
+  text-shadow: 2px 2px 4px gainsboro;
+}
+
+
+a {
+  color: navy;
+  text-align: left;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gainsboro;
+}
+
+img {
+  box-shadow: 2px 2px 2px black;
+  opacity: 0.4;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+input[type=text] {padding:20px;
+  border:2px solid #ccc;
+  width: 300px;
+-webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+input[type=text]:focus {border-color:#333; }

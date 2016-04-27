@@ -1,0 +1,5 @@
+<div class="container">
+ <% @dogs.each do |d| %>
+  <a href="/dogs/<%=d['id']%>"><img src="<%= d['image'] %>" title="<%= d['breed']%>"></a>
+ <% end %>
+ </div>

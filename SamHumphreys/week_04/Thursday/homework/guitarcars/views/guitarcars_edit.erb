@@ -1,0 +1,24 @@
+<h1>Edit a Guitar-Car!</h1>
+
+<form action="/guitarcars/<%= @guitarcar[0]['id'] %>" method="post">
+
+  <label>Name: </label>
+  <input type="text" name="name" value="<%= @guitarcar[0]['name'] %>">
+
+  <label>Type (Acoustic, Electric, etc): </label>
+  <input type="text" name="type" value="<%= @guitarcar[0]['type'] %>">
+
+  <label>Number of Wheels: </label>
+  <input type="number" name="wheels" value="<%= @guitarcar[0]['wheels'] %>">
+
+  <label>Colours: </label>
+  <input type="text" name="colors" value="<%= @guitarcar[0]['colors'] %>">
+
+  <label>Picture URL: </label>
+  <input type="url" name="image" value="<%= @guitarcar[0]['image'] %>">
+
+  <input type="submit" name="Update Guitar-Car!">
+
+
+
+</form>

@@ -1,0 +1,9 @@
+<h1>Edit Mountain</h1>
+
+<form action="<%= mountain_path(@mountain.id) %>" method="post">
+  <p><label>Mountain: </label><input type="text" name="name" value="<%= @mountain.name %>"></p>
+  <p><label>Country: </label><input type="text" name="country" value="<%= @mountain.country %>"></p>
+  <p><label>Elevation: </label><input type="integer" name="elevation" value="<%= @mountain.elevation %>"></p>
+  <p><label>Climbed: </label><input type="text" name="climbed" value="<%=@mountain.climbed %>"></p>
+  <button>Update</button>
+</form>

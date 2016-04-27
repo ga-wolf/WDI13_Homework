@@ -1,0 +1,7 @@
+<h1>All Lakes</h1>
+
+<% @lakes.each do |lake| %>
+  <p>
+    <%= link_to(lake.name, lake_path(lake.id)) %>
+  </p>
+<% end %>

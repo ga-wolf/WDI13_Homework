@@ -1,0 +1,143 @@
+* {
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: #000;
+}
+body {
+  background-color: antiquewhite;
+  background-image: url('/assets/forest.jpg');
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.supercontainer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  text-align: center;
+}
+.header-clown {
+  max-width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.header h1 {
+  font-size: 4em;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+
+
+/* HOME */
+.home-container a {
+  color: tomato;
+}
+
+.game-single {
+  padding: 20px 0;
+
+}
+
+/* BALL */
+
+.input-ball {
+  font-size: 1em;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+  color: tomato;
+}
+.ball-button {
+  margin-top: 40px;
+}
+.ball-question {
+  font-size: 2em;
+  font-style: italic;
+}
+
+/* RSP */
+
+.rsp-container, .secretnumber-container, .magic8ball-container, .home-container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 1em;
+  margin-top: 40px;
+  padding: 1.5em;
+}
+.rsp-image {
+  height: 200px;
+}
+.ball-image {
+  height: 150px;
+}
+.rsp-answer {
+  width: 200px;
+  display: inline-block;
+}
+.rsp-button, .ball-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+.result {
+  font-size: 2em;
+  font-weight: 900;
+  color: tomato;
+}
+.fade {
+  opacity: 0.3;
+}
+
+/* SECRET NUMBER */
+
+.btn.btn-secret {
+  margin-top: 20px;
+  color: tomato;
+  border: 1px solid tomato;
+}
+.secret-form-item {
+  max-width: 50px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+/* ELEMENTS */
+
+.rsp-form-item {
+  width: 200px;
+  display: inline-block;
+}
+.rsp-button, .ball-button {
+  cursor: pointer;
+}
+.btn {
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}

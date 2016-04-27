@@ -1,0 +1,35 @@
+body {
+  background: url(/assets/never-listens.gif) no-repeat center center fixed;
+  background-size: 180%;
+  color: white;
+}
+
+.container {
+  /*background: papayawhip;*/
+  max-width: 960px;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+nav {
+  text-align: center;
+  height: 3em;
+  /*background: gainsboro;*/
+  padding: 1.5em 1em;
+}
+
+a {
+  font-family: 'Creepster', cursive;
+  color: white;
+}
+
+nav>a {
+  font-size: 2em;
+  padding: .5em;
+}
+
+
+
+a:visited {
+  color: white
+}

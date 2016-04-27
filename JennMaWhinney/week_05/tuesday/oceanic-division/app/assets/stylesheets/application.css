@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans:400,700,500italic|Text+Me+One);
+body {
+  width: 100%;
+  height: 100%;
+  background: #00758C;
+  font-size: 20px;
+  color: #36352B;
+}
+.container {
+  background: #00758C;
+  height: 800px;
+  width: 400px;
+  margin: 0 auto;
+  font-family: 'Text Me One', sans-serif;
+}
+img {
+  max-width: 400px;
+  z-index: -1;
+  border-radius: .25em;
+}
+.nav {
+  text-align: center;
+}
+h1, h2 {
+  font-size: 4em;
+  color: #FFFFFF;
+  font-family: 'Expletus Sans', cursive;
+  font-weight: 700;
+  text-align: center;
+}
+a {
+  font-family: 'Text Me One', sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.small {
+  width: 350px;
+  margin: 0 auto;
+}
+.center{
+  width: 205px;
+  margin: 0 auto;
+}
+a{
+  font-size: 1.5em;
+}
+.a1{
+  width: 80px;
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #003454;
+  border-radius: .25em;
+  padding: 5px;
+}
+
+.a2{
+  width: 150px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 15px;
+  background-color: #003454;
+  border-radius: .25em;
+  padding: 5px;
+}
+.button, .button1, .button2{
+  display: inline-block;
+  background-color: #003454;
+  border: #003454;
+  border-radius: .25em;
+  padding: 5px;
+  font-family: 'Text Me One', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+.button{
+  font-size: 25px;
+  padding: 10px, 0;
+}
+.a1:hover, .a2:hover, .edit:hover, .button1:hover, .button2:hover{
+  box-shadow: inset 0 0 10px #00D5FF;
+}
+.buttons{
+  width: 400px;
+  margin: 0 auto;
+}
+.button1{
+  height: 50px;
+  width: 150px;
+  text-align: center;
+}
+.button2{
+  width: 180px;
+  text-align: center;
+}

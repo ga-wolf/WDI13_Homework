@@ -1,0 +1,14 @@
+<h2><%= @cocktail[0]["name"] %></h2>
+
+<p>
+
+Spirits: <%=@cocktail[0]["spirits"]%>
+
+</p>
+
+
+<img src="<%= @cocktail[0]['image']%>">
+<p class = "editdelete">
+<a href="/cocktails/<%= @cocktail[0]["id"]%>/delete">Delete</a>
+<a href="/cocktails/<%= @cocktail[0]["id"]%>/edit">Edit</a>
+</p>

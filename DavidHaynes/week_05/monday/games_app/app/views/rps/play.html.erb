@@ -1,0 +1,19 @@
+
+<div class="rps_result">
+<% @game_count +=1 %>
+<h1>Rock Paper Scissors</h1>
+<div class="result_info">
+<h2>Game: <%= @game_count %></h2>
+<h2>Wins: <%= @win_count %>     Draws: <%= @tie_count %></h2>
+<h2><%= @result %></h3>
+<form action="/rps/play/<%= @num_games %>/<%= @game_count %>/<%= @win_count %>/<%= @tie_count %>" method="GET">
+    <h2>Please select your move:</h2>
+    <select name="user_move" id>
+      <option value="rock">Rock</option>
+      <option value="paper">Paper</option>
+      <option value="scissors">Scissors</option>
+    </select>
+    <input type="submit">
+</form>
+</div>
+</div>

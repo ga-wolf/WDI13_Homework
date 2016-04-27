@@ -1,0 +1,15 @@
+<div class="title">
+  <h1>Edit <%= @ocean.name %></h1>
+</div>
+
+<div class="index">
+  <form action="<%= ocean_path(@ocean.id) %>" method="post">
+    <p><label>Ocean Name: </label><input type="text" name="name" value="<%= @ocean.name %>"></p>
+    <p><label>Adjoining Seas: </label><input type="text" name="seas" value="<%= @ocean.seas %>"></p>
+    <p><label>Adjoining Continents: </label><input type="text" name="continents" value="<%= @ocean.continents %>"></p>
+    <p><label>Depth: </label><input type="number" name="depth" value="<%= @ocean.depth %>"></p>
+    <p><label>Salinity: </label><input type="number" name="salinity" value="<%= @ocean.salinity %>"></p>
+    <p><label>Image: </label><input type="url" name="image" value="<%= @ocean.image %>"></p>
+    <input type="submit" value="Update Ocean">
+  </form>
+</div>

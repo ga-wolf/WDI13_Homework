@@ -1,0 +1,22 @@
+<%= form_for @author do |f| %>
+<fieldset>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</fieldset>
+<fieldset>
+  <%= f.label :nationality %>
+  <%= f.text_field :nationality %>
+</fieldset>
+<fieldset>
+  <%= f.label :dob, 'Date of Birth' %>
+    <!-- Change displyed name of column with , '...' ^^-->
+  <%= f.text_field :dob, :placeholder => '1929/07/21' %>
+</fieldset>
+<fieldset>
+  <%= f.label :image %>
+  <%= f.url_field :image %>
+</fieldset>
+<fieldset>
+  <%= f.submit %>
+</fieldset>
+<% end %>

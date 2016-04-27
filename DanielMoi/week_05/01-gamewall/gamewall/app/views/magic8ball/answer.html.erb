@@ -1,0 +1,18 @@
+<div class="magic8ball-container">
+  <h2>Magic 8 Ball</h2>
+
+  <p class="ball-question">
+    <span class="quote">"</span>
+    <%= params[:question] %>
+    <span class="quote">"</span>
+  </p>
+
+  <h2 class="result"><%= @answer %></h2>
+
+<div>
+  <a href="/magic8ball" class="ball-button" name="name">
+    <img class="ball-image" src="/assets/magic8ball.png" alt="" />
+  </a>
+</div>
+
+</div>

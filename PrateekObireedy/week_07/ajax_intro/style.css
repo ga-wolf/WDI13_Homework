@@ -1,0 +1,12 @@
+body{
+  color: #7d4627;
+  padding: 40px;
+  text-align: center;
+  background: #edd9c0;
+}
+img{
+  margin: 20px;
+  border: solid #7d4627 4px;
+  height: 450px;
+  width: 350px;
+}

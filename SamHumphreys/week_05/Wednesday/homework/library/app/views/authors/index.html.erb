@@ -1,0 +1,12 @@
+<h1>List of Authors</h1>
+
+<div class="content">
+  <% @authors.each do |author| %>
+    <div class="index">
+      <p class="pic"><%= image_tag(author.image, :class => 'thumb') %></p>
+      <p class="name"><%= link_to author.name, author %></p>
+    </div>
+  <% end %>
+</div>
+
+<p class="addNew"><%= link_to 'Add New Author', new_author_path %></p>

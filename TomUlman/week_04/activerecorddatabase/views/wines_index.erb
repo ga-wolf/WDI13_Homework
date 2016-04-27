@@ -1,0 +1,7 @@
+<%@wines.each do |wine| %>
+<p>
+<a href="/wines/<%= wine['id'] %> ">
+<%= wine['name'] %>
+</a>
+</p>
+<% end %>

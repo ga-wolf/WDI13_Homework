@@ -1,0 +1,16 @@
+<!-- id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT,
+image TEXT,
+location TEXT,
+ascent TEXT,
+height FLOAT -->
+
+<h1><%= @mountain.name %></h1>
+
+<p><%= image_tag @mountain.image %></p>
+<p>Location: <%= @mountain.location %></p>
+<p>First ascent: <%= @mountain.ascent %></p>
+<p>Height: <%= @mountain.height %></p>
+
+<%= button_to "Delete Mountain", mountain_delete_path(@mountain.id) %>
+<%= button_to "Edit Mountain", mountain_edit_path(@mountain.id) %>

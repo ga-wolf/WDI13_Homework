@@ -9,15 +9,11 @@
 	background-image: url("images/bg_wrapper.png");
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 90d3fc8d7b98d78501f2bd15e567585fec295bc8
 header {
 
 }
 
-<<<<<<< HEAD
 .navbox {
 
 }
@@ -26,7 +22,6 @@ header {
 nav ul li {
   display: inline;
 }
-=======
 }
 
 
@@ -53,25 +48,21 @@ nav ul li {
 			background-repeat: repeat-x;
 
 		}
->>>>>>> 90d3fc8d7b98d78501f2bd15e567585fec295bc8
 
 body {
   background-image: url("images/bg_body.jpg");
 }
 
 #blurb{
-<<<<<<< HEAD
  width: 100%;
  height:200px;
  display: inline;
-}
-
-=======
-  border: solid grey 1px;
-  				border-bottom: solid white 1px;
-  				border-right: solid white 1px;
-  				padding: 10px;
-          padding-top: 10px;
+border: solid grey 1px;
+				border-bottom: solid white 1px;
+				border-right: solid white 1px;
+				padding: 10px;
+        padding-top: 10px;
+        height: 100px;
 
 }
 
@@ -80,10 +71,7 @@ body {
 }
 
 #blurb img {
-  /* Fix me */
-  /* Fix me */
-  /* Fix me */
-  /* Fix me */
+margin-left:200px;
 }
 
 #blurb p {
@@ -92,7 +80,7 @@ body {
 }
 
 
->>>>>>> 90d3fc8d7b98d78501f2bd15e567585fec295bc8
+
 #home-boxes{
 text-align: justify;
 margin-top: 20px;
@@ -107,6 +95,4 @@ margin-top: 20px;
   padding: 2px;
   border: 4px solid lightgrey;
   width: 274px; /* Declare your value. Can be in relative units. */
-  display: inline-block;
-  vertical-align: top;
 }

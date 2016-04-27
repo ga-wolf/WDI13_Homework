@@ -1,0 +1,17 @@
+<h1>My photo search :D</h1>
+
+<%= form_tag root_path, :id => 'search' do %>
+  <%= search_field_tag :query, '', autofocus: true %>
+  <%= submit_tag 'Search' %>
+<% end %>
+
+<div id="reset">
+  <p>Reset</p>
+</div>
+
+<div id="counter">
+  <p></p>
+</div>
+
+<div id="totals"></div>
+<div id="results"></div>

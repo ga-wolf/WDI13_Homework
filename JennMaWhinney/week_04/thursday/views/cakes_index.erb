@@ -1,0 +1,10 @@
+    <div class="show">
+<% @cakes.each do |cake| %>
+  <p>
+    <img class="thumbnail" src="<%= cake['image'] %>">
+    <a href="/cakes/<%= cake['id'] %>">
+      <%= cake['name'] %>
+    </a>
+  </p>
+<% end %>
+</div>

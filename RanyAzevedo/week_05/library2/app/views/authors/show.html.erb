@@ -1,0 +1,24 @@
+<h1>Authors</h1>
+
+<div class="content">
+
+<h3><%= @author.name %></h3>
+<%= image_tag(@author.image, :class => 'feature') %>
+
+<ul>
+  <li>Date of Birth: <%= @author.dob %></li>
+  <li>Genre: <%= @author.genre %></li>
+  <li>Awards: <%= @author.awards %></li>
+</ul>
+
+<h3>Books:</h3>
+<% @author.books.each do |book| %>
+<p><%=  link_to(book.title, book) %></p>
+<% end %>
+</div>
+
+<br><br>
+
+
+<%= link_to 'Edit Author', edit_author_path %><br>
+<%=  link_to 'Delete Author', @author, :method => 'delete' %>

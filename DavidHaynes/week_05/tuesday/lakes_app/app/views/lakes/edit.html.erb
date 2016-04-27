@@ -1,0 +1,12 @@
+<h1>Edit Lake</h1>
+
+<form action='<%= lake_update_path(@lake.id) %>' method="post">
+    <p><label>Name:</label><input type="text" name='name' value='<%= @lake.name %>'></p>
+    <p><label>Image:</label><input type="url" name='image' value='<%= @lake.image %>'></p>
+    <p><label>Country:</label><input type="text" name='country' value='<%= @lake.country %>'></p>
+    <p><label>Country Other:</label><input type="text" name='country_other' value='<%= @lake.country_other %>'></p>
+    <p><label>Volume (km3):</label><input type="integer" name='volume' value='<%= @lake.volume %>'></p>
+    <p><label>Area (km2):</label><input type="integer" name='area' value='<%= @lake.area %>'></p>
+    <p><label>Max Depth (m)</label><input type="integer" name='max_depth' value='<%= @lake.max_depth %>'></p>
+    <input type="submit">
+</form>

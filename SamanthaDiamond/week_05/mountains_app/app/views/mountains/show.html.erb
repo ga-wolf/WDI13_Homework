@@ -1,0 +1,14 @@
+<h1><%= @mountain.name %></h1>
+
+<p>Country: <%= @mountain.country %></p>
+
+<p>Elevation: <%= @mountain.elevation %></p>
+
+<p>Climbed: <%= @mountain.climbed %></p>
+
+<p><%= link_to 'Edit', mountain_edit_path(@mountain.id) %></p>
+
+<%= button_to 'Delete', mountain_destroy_path(@mountain.id), class: 'button' %>
+
+
+<!-- number_to_human(343, units: :distance, precision: 1) -->

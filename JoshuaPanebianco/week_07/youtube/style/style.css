@@ -1,0 +1,15 @@
+.content {
+  margin: 0 auto;
+  max-width: 640px;
+  padding-top: 10%;
+  color: white;
+
+}
+
+body {
+  background-color: #e74c3c;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+<h1>New Mountain</h1>
+
+<form action="<%= mountain_create_path(:id) %>" method="post">
+  <p><label>Name: </label><input type="text" name="name"></p>
+  <p><label>Image: </label><input type="url" name="image"></p>
+  <p><label>Height(m): </label><input type="integer" name="height"></p>
+  <p><label>Elevation(m): </label><input type="integer" name="elevation"></p>
+  <p><label>Country: </label><input type="text" name="country"></p>
+  <p><label>Country Other: </label><input type="text" name="country_other"></p>
+  <input type="submit">
+</form>

@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt|Megrim);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/79/26/0d/79260d265ed92ec1908d7ed6df3cd614.jpg");
+  background-size: cover;
+  /*filter: saturate(0%);
+  transform: all 0.25s ease-in-out;*/
+}
+
+div.container {
+  font-family: 'Rock Salt', cursive;
+  /*width: 960px;*/
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav {
+  text-align: right;
+  margin-bottom: 180px;
+}
+
+nav a  {
+  margin-left: 30px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+form {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.button{
+ text-decoration:none;
+ text-align:center;
+ padding:5px 17px;
+ border:solid 1px #c9ba18;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius: 4px;
+ font:13px Verdana, Geneva, sans-serif;
+ font-weight:bold;
+ color:#0c0d0d;
+ background-color:#ebdb26;
+ background-image: -moz-linear-gradient(top, #ebdb26 0%, #cfcf19 100%);
+ background-image: -webkit-linear-gradient(top, #ebdb26 0%, #cfcf19 100%);
+ background-image: -o-linear-gradient(top, #ebdb26 0%, #cfcf19 100%);
+ background-image: -ms-linear-gradient(top, #ebdb26 0% ,#cfcf19 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcf19', endColorstr='#cfcf19',GradientType=0 );
+ background-image: linear-gradient(top, #ebdb26 0% ,#cfcf19 100%);
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.feature {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+div.info {
+  display: inline-block;
+  /*text-decoration: none;*/
+}
+
+div.info a {
+  text-decoration: none;
+}
+
+div.background {
+  opacity: 0.5;
+  width: 100%;
+  background: white;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+p a {
+  
+}

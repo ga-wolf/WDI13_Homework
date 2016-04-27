@@ -1,0 +1,23 @@
+<div class="secretnumber-container">
+  <h2>Answer</h2>
+
+  <p>
+    You guessed:
+    <span class="result"><%= @guess %></span>
+  </p>
+
+  <p>
+    The secret number is:
+    <span class="result"><%= @secret %></span>
+  </p>
+
+  <% if @guess.to_i == @ssecret %>
+  <p>
+    You guessed correctly! And I am never going to see the light of the screen.
+  </p>
+<% else %>
+  <p class="result">
+    You guessed incorrectly.
+  </p>
+  <% end  %>
+</div>

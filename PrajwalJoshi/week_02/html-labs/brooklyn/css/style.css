@@ -1,0 +1,46 @@
+/*
+
+## Style Hints:
+
+Body Font Size = 12px
+	 Line Height = 17px
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+
+Link Hover Color = #20222a
+
+*/
+
+
+body{
+	font-size: 12px;
+	line-height: 17px;
+	font-family: "Times New Roman", serif;
+	color:#656565;
+}
+
+#container{
+	padding:60px;
+	margin: 0 auto;
+}
+
+.bloghero, .rings{
+
+	width:850px;
+	display:block;
+	padding-bottom: 3px;
+}
+
+.press{
+	border: 1px solid white;
+	width:200px;
+	outline: 4px solid #c1c4c5;
+	margin:4px;
+}
+
+.content{
+	width:845px;
+}
+.date, .readmore{
+	color:#45a2dd;
+}

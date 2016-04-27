@@ -1,0 +1,22 @@
+  <div class="title">
+    <h1><%= @ocean.name %></h1>
+  </div>
+
+<div class="show">
+
+  <div class="left">
+    <p>Adjoining Seas: <%= @ocean.seas %></p>
+    <p>Adjoining Continents: <%= @ocean.continents %></p>
+    <p>Maximum Depth: <%= @ocean.depth %> metres</p>
+    <p>Maximum Salinity: <%= @ocean.salinity %></p>
+  </div>
+
+  <div class="right">
+  <%= image_tag @ocean.image %>
+  </div>
+</div>
+
+  <div class="controller">
+      <%= link_to 'Edit Details', ocean_edit_path(@ocean.id) %>
+      <%= button_to 'Delete Ocean', ocean_delete_path(@ocean.id) %>
+  </div>

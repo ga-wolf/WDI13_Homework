@@ -1,0 +1,13 @@
+<h2> Click to know more about the Attractions </h2>
+
+
+<% @attractions.each do |attraction| %>
+<h3>
+  <a href="/attractions/<%= attraction.id %>">
+    <%= attraction['place'] %>
+  </a>
+</h3>
+<% end %>
+<br>
+<br>
+<a class="button" href="/attractions/new">Add new City</a>

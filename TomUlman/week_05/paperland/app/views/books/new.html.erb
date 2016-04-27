@@ -1,0 +1,27 @@
+<h1>New Book</h1>
+<%= form_for @book do |f| %>
+<fieldset>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+</fieldset>
+
+  <fieldset>
+    <%= f.label :year %>
+    <%= f.text_field :year %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :genre %>
+    <%= f.text_field :genre %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :image %>
+    <%= f.url_field :image %>
+  </fieldset>
+
+  <fieldset>
+  <%= f.submit %>
+  </fieldset>
+
+  <% end %>

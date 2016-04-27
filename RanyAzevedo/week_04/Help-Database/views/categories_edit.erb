@@ -1,0 +1,12 @@
+<h2>Edit Categorie </h2>
+
+<form action="/categories/<%=@categorie.id%>" method="post">
+
+<label> Name ::  </label>  <input name="name" value="<%= @categorie.name %>"> <br><br>
+
+<label> Website :: </label>  <input name="website" type="url" value="<%= @categorie.website %>"><br><br>
+
+<label> Description :: </label>  <input name="description" value="<%= @categorie.description %>"><br><br>
+
+<input class="button" type="submit" value="Save">
+</form>

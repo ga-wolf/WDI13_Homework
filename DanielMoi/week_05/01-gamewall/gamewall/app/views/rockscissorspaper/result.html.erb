@@ -1,0 +1,39 @@
+<div class="rsp-container">
+  <h2>Scissors Paper Rock</h2>
+
+  <div class="rsp-answer">
+    <p>
+      You played:
+      <%= params[:player] %>
+    </p>
+    <img class="rsp-image
+
+    <% if @result != "player" %>
+    <%= "fade" %>
+    <% end %>
+    " src="/assets/<%= @player %>.jpg" alt=""/>
+  </div>
+
+  <div class="rsp-answer">
+    <p>
+      I played:
+      <%= @computer %>
+    </p>
+    <img class="rsp-image
+    <% if @result != "computer" %>
+    <%= "fade" %>
+    <% end %>
+    " src="/assets/<%= @computer %>.jpg" alt=""/>
+
+  </div>
+
+  <p>
+
+    <span class="result"><%= @result_message %></span>
+  </p>
+
+  <p>
+
+    <a href="/rockscissorspaper">Play again!</a>
+  </p>
+</div>

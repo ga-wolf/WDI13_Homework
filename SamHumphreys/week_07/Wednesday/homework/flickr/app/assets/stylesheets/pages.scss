@@ -1,0 +1,18 @@
+body {
+  background: #beeeef;
+  position: relative;
+  text-align: center;
+}
+
+#reset {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  height: 3em;
+  width: auto;
+  border: 5px solid black;
+  border-radius: .5em;
+  background: red;
+  padding: 0 1em 0 1em;
+
+}

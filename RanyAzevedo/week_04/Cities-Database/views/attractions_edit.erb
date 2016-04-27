@@ -1,0 +1,19 @@
+<h2> Edit Attraction</h2>
+
+<form action="/attractions/<%=@attraction.id %>" method="post">
+
+  <label>Place: </label>
+  <input name="place" value="<%=@attraction.place %>">    <br><br>
+
+  <label>Language: </label>
+  <input name="language" value="<%=@attraction.language %>">  <br><br>
+
+  <label>Food: </label>
+  <input name="food" value="<%=@attraction.food %>">  <br><br>
+
+  <label>Image: </label>
+  <input type="url" name="image" value="<%=@attraction.image %>">  <br><br>
+<br>
+<br>
+  <input class="button" type="submit" value="Update Attraction">
+</form>

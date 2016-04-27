@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: rgba(2,168,244,1);
+}
+
+.navbar {
+  background-color: rgba(3,169,244,0.54);
+  border: none;
+}
+.navbar-header {
+  position: fixed;
+  z-index: 1;
+}
+
+#brand-heading {
+  color: #FFEB3B;
+  line-height: 50px;
+}
+
+#search {
+  text-align: center;
+  position: relative;
+  left: -100px;
+  top: 25px;
+}
+
+.home-page {
+  background-image: url('http://dreamatico.com/data_images/sunset/sunset-7.jpg');
+  background-size: cover;
+  height: 550px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#query {
+  width: 400px;
+}
+
+img {
+  height: 100%;
+}
+
+.btn-group {
+  position: relative;
+  top: -17px;
+  left: 350px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
+
+div.small {
+  border: 1px solid black;
+  width: 200px;
+  height:200px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+div.medium {
+  border: 1px solid black;
+  width: 300px;
+  height:300px;
+  text-align: center;
+  margin: -2px;
+  display: inline-block;
+}
+
+div.large {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: -2px;
+  display: inline-block;
+}

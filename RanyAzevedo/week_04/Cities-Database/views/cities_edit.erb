@@ -1,0 +1,15 @@
+<h2> Edit City</h2>
+
+<form action="/cities/<%=@city.id %>" method="post">
+
+  <label>City: </label>
+  <input name="city" value="<%=@city.city %>">    <br><br>
+
+  <label>Country: </label>
+  <input name="country" value="<%=@city.country %>">  <br><br>
+
+  <label>Image: </label>
+  <input type="url" name="image" value="<%=@city.image %>">  <br><br>
+
+  <input class="button" type="submit" value="Update City">
+</form>

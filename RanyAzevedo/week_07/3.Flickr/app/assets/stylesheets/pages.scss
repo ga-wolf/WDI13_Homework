@@ -1,0 +1,37 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body{
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: .1em;
+  font-family: 'Poiret One', cursive;
+  text-shadow: 5px 4px 4px gainsboro;
+}
+
+.container {
+  // max-width: 1000px;
+  padding: 80px;
+  text-align: center;
+}
+
+img {
+  opacity: 0.3;
+  border: 5px solid gainsboro;
+  margin: 10px;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+input[type="search" i] {
+
+      width: 200px;
+      border: none;
+      border-bottom: 2px solid gainsboro;
+}

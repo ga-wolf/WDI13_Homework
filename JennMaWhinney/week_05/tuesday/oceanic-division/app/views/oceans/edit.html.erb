@@ -1,0 +1,17 @@
+<h2>Edit Ocean</h2>
+<form action="<%= ocean_path(@ocean.id) %>" method="post">
+
+  <p><label>Name: </label>
+    <input type="text" name="name" value="<%= @ocean.name %>"></p>
+  <p><label>Image: </label>
+    <input type="url" name="image" value="<%= @ocean.image %>"></p>
+  <p><label>Area: </label>
+    <input type="number" name="area" value="<%= @ocean.area %>"></p>
+  <p><label>Volume: </label>
+    <input type="number" name="volume" value="<%= @ocean.volume %>"></p>
+  <p><label>Depth: </label>
+    <input type="number" name="depth" value="<%= @ocean.depth %>"></p>
+  <button>Edit Ocean</button>
+  </form>
+
+</form>

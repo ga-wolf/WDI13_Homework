@@ -1,0 +1,89 @@
+// Place all the styles related to the Oceans controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=ABeeZee);
+
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/564x/c9/45/45/c94545a9a34ac4a486efea1b6146d5f7.jpg");
+  background-size: 900px 600px;
+  text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin-left: 100px;
+  // display: inline-block;
+}
+
+label {
+  margin-top: 10px;
+  width: 90px;
+  display: inline-block;
+  align-items: baseline;
+}
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px 2px purple;
+
+  letter-spacing: .3em;
+  color: rgba(246, 159, 180,0.9)
+}
+
+h2{
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px 2px white;
+  display: inline-block;
+  margin-top: -2px;
+}
+
+
+a {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:visited:hover{
+  color: white;
+}
+
+
+nav {
+  background-color: rgba(236, 222, 213,0.42);
+  box-shadow: 2px 2px 2px white;
+  padding: 15px;
+  margin: -10px -10px 5px -10px;
+}
+
+input {
+  border: none;
+   color: #333;
+   background: rgba(244, 240, 240,0.62);
+   border-bottom: 1px dotted black;
+   padding: 5px 2px 0 2px;
+}
+
+input:focus {
+  outline: none;
+   border-color: #51CBEE;
+}
+
+p{
+  text-shadow: 1px 1px 1px white;
+}
+
+.showpage{
+  max-width: 80%;
+  max-height: 100%;
+  padding: 0px 30px 0px 30px;
+  display: inline-block;
+  margin-top: 15px;
+  background-color: rgba(236, 222, 213,0.42);
+}

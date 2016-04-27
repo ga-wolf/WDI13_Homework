@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Simpsons Characters</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <div class="header">
+   <img class="logo"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Logo_The_Simpsons.svg/2000px-Logo_The_Simpsons.svg.png" alt="" align="middle" />
+</div>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+    <a class="nav-link active" href="/">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/index">Character List</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/new">Add New</a>
+  </li>
+</ul>
+
+  <div class="container">
+    <br>
+    <br>
+ <%= yield %>
+</div>
+
+</body>
+</html>

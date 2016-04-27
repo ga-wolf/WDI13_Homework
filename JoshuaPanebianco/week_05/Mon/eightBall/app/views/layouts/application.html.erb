@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EightBall</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav class="nav">
+  <ul>
+    <li><a href="/">Magic 8 Ball</a></li>
+    <li><a href="/number">Secret Number</a></li>
+    <li><a href="/paper">Paper,Sissors,Rock</a></li>
+  </ul>
+</nav>
+
+
+<%= yield %>
+
+</body>
+</html>

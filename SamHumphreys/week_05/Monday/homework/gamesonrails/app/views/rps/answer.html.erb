@@ -1,0 +1,7 @@
+<h2>You chose <%= @player_move %></h2>
+<h2>The computer chose <%= @computer_move %></h2>
+<% if @result == "tie" %>
+  <h2>The game is a muffafuggin tie, muffafuggaaaaaaa</h2>
+<% else %>
+<h2>The winner is <%= @result %></h2>
+<% end %>

@@ -1,0 +1,33 @@
+@font-face { font-family: Typewriter; src: url('/images/Moms_typewriter-webfont.ttf'); }
+
+body {
+  background-image: url('/images/beer_background.jpg');
+  text-align: center;
+  width: 960px;
+  margin: 10px auto;
+  font-family: Typewriter;
+  color: #FFFFFF;
+}
+
+header {
+  height: 180px
+}
+
+h1 {
+  color: #002597;
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.show {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+}

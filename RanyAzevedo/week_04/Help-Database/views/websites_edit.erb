@@ -1,0 +1,16 @@
+<h2> Edit Website</h2>
+
+<form action="/websites/<%=@website.id%>" method="post">
+
+  <label> Name :: </label>
+  <input name="name" value="<%=@website.name %>"><br><br>
+
+  <label> Link :: </label>
+  <input type="url" name="link" value="<%=@website.link %>"><br><br>
+
+  <label> Help :: </label>
+  <input name="help" value="<%=@website.help %>"><br><br>
+
+  <input class="button" type="submit" value="Edit website">
+
+</form>

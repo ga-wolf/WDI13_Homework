@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><i class="fa fa-book"></i> GA Library</a>
+              </div>
+
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Library<strong class="caret"></strong>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <%= link_to 'All Authors', authors_path %>
+                      </li>
+                      <li>
+                        <%= link_to 'All Books', books_path %>
+                      </li>
+                      <li>
+                        <%= link_to 'New Author', new_author_path %>
+                      </li>
+                      <li>
+                        <%= link_to 'New Book', new_book_path %>
+                      </li>
+                      <li class="divider"></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <%= link_to 'Home', '/' %>
+                  </li>
+                    </ul>
+              </div>
+
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          </div>
+        </div>
+      </div>
+
+<%= yield %>
+
+</body>
+</html>

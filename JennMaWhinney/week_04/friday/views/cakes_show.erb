@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<div class="container2">
+  <div class="cakes">
+    <h2><%= @cake.name %></h2>
+    <div class="pic">
+    <img src="<%= @cake.image %>">
+    </div>
+
+      <div class="recipe"><a href="<%= @cake.recipe %>"><i class="fa fa-birthday-cake"></i> Recipe</a></div>
+
+    </i>
+      <div class="constant">
+      <a href="/cakes/<%= @cake.id %>/delete">Delete</a>
+      <a href="/cakes/<%= @cake.id %>/edit">Edit</a>
+      </div>
+  </div>
+</div>

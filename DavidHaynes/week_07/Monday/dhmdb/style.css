@@ -1,0 +1,11 @@
+.hide {
+  display: none;
+}
+
+.thumb {
+  width: 200px;
+}
+
+.select:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+
+<div class="secretnumber-container">
+  <h2>Secret Number</h2>
+
+  <p>
+    Try to guess the secret number!
+  </p>
+  <form class="form" action="/secretnumber/answer" method="get">
+
+    <% range = arr = (1..10).to_a %>
+    <% random = Random.rand(1..10) %>
+    <% arr.each do |element| %>
+    <div class="form-item secret-form-item">
+      <input type="radio" id="<%= element %>" name="guess" value="<%= element %>"
+      <% if element == random %>
+      <%= "checked" %>
+      <% end %>
+
+      >
+
+
+      <label for="<%= element %>"><%= element %></label>
+    </div>
+    <% end %>
+
+
+    <div class="form-item">
+      <input class="btn btn-secret" type="submit" name="name" value="Check guess">
+    </div>
+
+  </form>
+</div>

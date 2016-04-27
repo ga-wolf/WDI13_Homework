@@ -1,0 +1,7 @@
+
+
+Lines = {
+:N => ['TIME SQUARE', '34TH', '28TH', '23RD', 'UNION SQUARE', '8TH'],
+:L => ['8TH', '6TH', 'UNION SQUARE', '3RD', '1ST'],
+:6 => ['GRAND CENTRAL', '33RD', '28TH', '23RD', 'UNION SQUARE', 'ASTOR PLACE']
+}

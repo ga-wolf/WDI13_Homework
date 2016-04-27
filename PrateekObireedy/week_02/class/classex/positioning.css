@@ -1,0 +1,45 @@
+.box{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+/* margin: 0px auto; horizontal centering */
+}
+
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+  top: 17px;
+  right: 0px;
+
+}
+.fixed{
+  position: fixed;
+  top: 200px;
+  right: 400px;
+}
+.example{
+  border: 1px dashed green;
+  position: relative;
+}
+.abs1{
+  background-color: blue;
+  position: aboslute;
+  top: 10px;
+  left: 10px;
+}
+.abs2{
+  background-color: green;
+  position: aboslute;
+  top: 20px;
+  left: 20px;
+}
+.abs3{
+  background-color: yellow;
+  position: aboslute;
+  top: 30px;
+  left: 30px;
+}

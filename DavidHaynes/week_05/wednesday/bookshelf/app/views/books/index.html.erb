@@ -1,0 +1,9 @@
+<h1>All Books</h1>
+<ul>
+<% @books.each do |book| %>
+    <li>
+    <%= link_to(image_tag(book.image, :class => 'thumb'), book )%>
+    <p><%= link_to(book.title, book ) %></p>
+    </li>
+<% end %>
+</ul>

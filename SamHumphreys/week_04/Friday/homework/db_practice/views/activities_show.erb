@@ -1,0 +1,15 @@
+<div class="show left">
+  <h2><%= @activity.name %></h2>
+  <p>Minimum People: <%= @activity.people %></p>
+  <p>Equipment Required: <%= @activity.equipment %></p>
+  <p>Risks: <%= @activity.risk %></p>
+</div>
+
+<div class="show right">
+  <img src="<%= @activity.image %>">
+</div>
+
+<p class="controls show">
+  <a href="/activities/<%= @activity.id %>/edit">Edit Activity</a>
+  <a href="/activities/<%= @activity.id %>/delete">Delete Activity</a>
+</p>

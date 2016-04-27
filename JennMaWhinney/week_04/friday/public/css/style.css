@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Marmelad|Overlock|Cherry+Cream+Soda|Aclonica|Englebert);
+@import url(https://fonts.googleapis.com/css?family=Nova+Oval);
+body {
+  color: #75395E;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  background: #FFC4CA;
+  font-family: 'Nova Oval', cursive;
+}
+
+#container{
+  margin: 0 auto;
+  width: 850px;
+  height: 800px;
+  background-image: url(/images/cake_baby.jpg);
+  background-size: cover;
+}
+#container2{
+  margin: 0 auto;
+  width: 100%;
+  height: 1200px;
+  background-image: url(/images/sprinkles.jpg);
+  background-size: cover;
+}
+#container3{
+  margin: 0 auto;
+  width: 850px;
+  height: 800px;
+  background: pink;
+}
+.show{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.cakes{
+  width: 450px;
+  margin: 0 auto;
+}
+.pic img{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form{
+  width: 220px;
+  margin: 0 auto;
+}
+.thumbnail{
+  max-height: 150px;
+  max-width: 130px;
+  border-radius: .2em;
+  display: inline-block;
+}
+.names{
+  font-size: 1.5em;
+  display: inline-block;
+  padding-bottom: 1.2em;
+}
+h1{
+  font-family: 'Nova Oval', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+h2{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+}
+.nav{
+  margin: 0 auto;
+  height: 50px;
+  font-size: 2em;
+}
+.nav2{
+  margin: 0 auto;
+  margin-bottom: 1em;
+  height: 50px;
+  font-size: 2em;
+}
+
+ul{
+  margin-top: 0;
+}
+ul:first-child{
+  margin-left: 1em;
+
+}
+li {
+  display: inline-block;
+  padding-left: 2.4em;
+  padding-top: .5em;
+}
+p, label{
+  font-family: 'Aclonica', sans-serif;
+}
+input{
+  font-family: 'Nova Oval', cursive;
+  margin-bottom: 20px;
+  color: #75395E;
+}
+.button{
+  margin-left: 35px;
+}
+.home a{
+    color: white;
+    text-decoration: none;
+}
+a{
+  color: #75395E;
+  text-decoration: none;
+}
+label{
+  display: block;
+}
+img{
+  height:250px;
+  border-radius: .25em;
+}
+.recipe, .constant{
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1.5em;
+}
+.constant a{
+  padding-right: .5em;
+}
+.constant a:hover{
+  background: #F3EBDD;
+  border-radius: .2em;
+}
+.pic{
+  margin: 0 auto;
+}

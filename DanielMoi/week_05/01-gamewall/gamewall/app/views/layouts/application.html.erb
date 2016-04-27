@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gamewall</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+
+    <div class="supercontainer">
+      <header class="header">
+        <img class="header-clown" src="/assets/clown.jpg" alt=""/>
+        <h1>
+          <a href="/">Clowning Around</a>
+        </h1>
+        <img class="header-clown" src="/assets/clown-2.jpg" alt=""/>
+
+      </header>
+      <nav>
+        –
+        <a href="/">Home</a>
+        –
+        <a href="/magic8ball">Magic 8 Ball</a>
+        –
+        <a href="/secretnumber">Secret Number</a>
+        –
+        <a href="/rockscissorspaper">Scissors Paper Rock</a>
+        –
+      </nav>
+      <%= yield %>
+
+    </div>
+
+  </body>
+</html>

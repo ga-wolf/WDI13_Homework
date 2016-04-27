@@ -1,0 +1,12 @@
+Pseudo Code for MTA in Ruby
+
+1. Make a diagram of the three train lines.
+2. Declare three separate arrays with the names each stop.
+3. Create a prompt that collects four pieces of data: start_line, start_station
+   end_line and end_station.
+4. Assign these 4 pieces of data to 4 separate variables.
+5. Declare empty array that we can push new values into.
+6. Create a loop in ruby that indexes the number of the start
+   and end stop.
+7. Return or console.log the list of stations that the user has
+   to travel through to get to the end station.

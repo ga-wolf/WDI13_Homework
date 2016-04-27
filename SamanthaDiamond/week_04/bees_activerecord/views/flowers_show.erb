@@ -1,0 +1,8 @@
+<h2> <%= @flower.name %></h2>
+
+<img class="feature" src="<%= @flower.image %>">
+
+<p class="controls">
+  <a href="/flowers/<%= @flower.id %>/delete">Delete</a>
+  <a href="/flowers/<%= @flower.id %>/edit">Edit</a>
+</p>

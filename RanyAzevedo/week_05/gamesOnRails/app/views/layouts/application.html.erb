@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GamesOnRails</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="gameicon">
+  <a class="gameicon" href="/"><i class="fa fa-gamepad"></i></a>
+</div>
+
+  <nav>
+    <a href="/magic">Magic 8 Ball</a>
+    <a href="/secret">Secret Number</a>
+    <a href="/rpsgame">Rock Paper Scissors</a>
+    <a href="/games/rock_paper_scissors">Rock Paper Scissors2</a>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>

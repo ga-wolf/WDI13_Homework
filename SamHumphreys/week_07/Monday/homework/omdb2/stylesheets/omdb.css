@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background: #beeeef;
+}
+
+.container {
+  max-width: 960px;
+  margin: 2em auto;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 3em;
+}
+
+li {
+  color: blue;
+  text-decoration: underline none;
+}
+
+li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}

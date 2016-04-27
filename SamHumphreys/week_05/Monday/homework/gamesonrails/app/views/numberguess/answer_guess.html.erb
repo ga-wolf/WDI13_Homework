@@ -1,0 +1,8 @@
+<h2>Your guess was: <%= @player_guess %></h2>
+<h2>The random number was: <%= @comp_guess %></h2>
+<% if @player_guess == @comp_guess %>
+<h2>You're a winnahhhhh!!!!!</h2>
+  <% else %>
+  <h2>Loooosssaaaaahhhhhhh!!!!</h2><br>
+  <h2>Maybe try again or something.</h2>
+<% end %>

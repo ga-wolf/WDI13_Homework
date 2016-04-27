@@ -1,0 +1,15 @@
+
+<p><%= link_to 'Back', root_path%></p>
+<div class="showpage">
+
+<h2> <%= @ocean.name %>  Ocean  </h2>
+
+<p>Location: <%= truncate(@ocean.location, :length =>60)%></p>
+<p>Area: <%= number_to_human @ocean.area %> km²</p>
+<p>Volume: <%= number_to_human @ocean.volume %> km3</p>
+<p>Deep: <%= number_to_human @ocean.deep %> meters</p>
+<p>Coastline: <%= number_to_human @ocean.coastline %> km</p>
+
+<%= link_to 'Edit Ocean', ocean_edit_path(@ocean.id) %>
+<%= button_to 'Destroy Ocean', ocean_delete_path(@ocean.id) %>
+</div>

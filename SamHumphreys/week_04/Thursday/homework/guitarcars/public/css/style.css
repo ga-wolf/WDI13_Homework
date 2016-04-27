@@ -1,0 +1,83 @@
+body {
+  background: indigo;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  height: 95vh;
+  background: url(https://c2.staticflickr.com/8/7054/6983663341_2e8f574ac1_b.jpg);
+  background-size: cover;
+}
+
+nav {
+  text-align: center;
+}
+
+nav > a{
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: .25em 1em;
+}
+
+
+
+nav > a:visited {
+  color: indigo;
+}
+
+a:hover {
+  text-shadow: 2px 2px 2px gainsboro;
+}
+
+
+
+h1 {
+font-family: 'Warnes', cursive;
+font-size: 14vh;
+color: white;
+}
+
+.top{
+  text-align: left;
+}
+
+.middle {
+  text-align: center;
+}
+
+.bottom {
+  text-align: right;
+  margin-right: .25em;
+}
+
+.index {
+  /*display: inline;*/
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  height: 93%;
+}
+
+.index_divs {
+  position: absolute;
+  width: 45%;
+  border: 2px solid white;
+
+}
+
+.index_divs.left {
+  left: .5em;
+  background: gainsboro;
+  text-align: center;
+  border-radius: 2em;
+}
+
+.index_divs.right {
+  right: .5em;
+  border-radius: 2em;
+}
+
+.hippies {
+  width: 100%;
+}

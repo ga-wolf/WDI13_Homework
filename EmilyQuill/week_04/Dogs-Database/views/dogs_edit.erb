@@ -1,0 +1,24 @@
+<form action="/dogs/<%=@dog[0]['id']%>" method="post">
+  <h2>Edit Dog</h2>
+  <p>
+    <label>Breed: </label>
+    <input name="breed" size="75" value="<%= @dog[0]['breed'] %>">
+  </p>
+  <p>
+    <label>Type:</label>
+    <input name="family" size="75" value="<%= @dog[0]['family'] %>">
+  </p>
+  <p>
+    <label>Lifespan:</label>
+    <input name="life_span" size="75" value="<%= @dog[0]['life_span'] %>">
+  </p>
+  <p>
+    <label>Image URL: </label>
+    <input type="url" size="75" name="image" value="<%= @dog[0]['image']%>">
+  </p>
+  <p>
+    <label>More info URL: </label>
+    <input type="url" size="75" name="more_info" value="<%= @dog[0]['more_info'] %>">
+  </p>
+  <input type="submit" value="Edit Dog">
+</form>

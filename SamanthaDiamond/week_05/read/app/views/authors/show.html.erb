@@ -1,0 +1,9 @@
+<h1><%= @author.name %></h1>
+
+<ul>
+  <li><%= @author.dob %></li>
+  <li><%= @author.nationality %></li>
+</ul>
+
+  <%= link_to 'Edit author', edit_author_path(@author) %>
+  <%= link_to 'Delete author', @author, :method => :delete %>

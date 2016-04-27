@@ -1,0 +1,12 @@
+
+<img src="<%= @attraction.image %>">
+
+<h3>Where to go: <%= @attraction.place %></h3>
+<p> Language:  <%= @attraction.language %></p>
+<p> Food:  <%= @attraction.food %></p>
+
+<br>
+<br>
+<a class="button" href="/attractions/<%= @attraction.id %>/delete"> Delete </a>
+
+<a class="button" href="/attractions/<%= @attraction.id %>/edit"> Edit .. </a>

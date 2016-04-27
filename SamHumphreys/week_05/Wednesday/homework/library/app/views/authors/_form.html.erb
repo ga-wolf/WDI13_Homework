@@ -1,0 +1,25 @@
+<%= form_for @author do |f| %>
+  <fieldset>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :dob, 'Date of birth' %>
+    <%= f.text_field :dob, :placeholder => 'yyyy/mm/dd' %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :birthplace %>
+    <%= f.text_field :birthplace %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :residence %>
+    <%= f.text_field :residence %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :image %>
+    <%= f.url_field :image %>
+  </fieldset>
+  <fieldset>
+    <%= f.submit %>
+  </fieldset>
+<% end %>

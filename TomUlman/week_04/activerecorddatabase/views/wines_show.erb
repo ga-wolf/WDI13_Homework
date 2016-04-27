@@ -1,0 +1,13 @@
+<h2><%= @wine.name %></h2>
+  <p>
+    Style: <%= @wine.style %>
+  </p>
+  <p>
+  Palate: <%= @wine.palate %>
+  </p>
+<img class="feature" src=" <%= @wine.image %>">
+
+<p>
+<a href="/wines/<%=@wine.id%>/delete">Delete</a>
+<a href="/wines/<%=@wine.id%>/edit">Edit</a>
+</p>

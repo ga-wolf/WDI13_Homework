@@ -1,0 +1,11 @@
+<h2> List of websites </h2>
+
+<% @websites.each do |website|  %>
+<h3>  <a href="/websites/<%= website['id']%>">
+<%= website['name'] %> </a></h3>
+<% end %>
+
+
+<br>
+<br>
+<a class="button" href="/websites/new">Add New Website</a>

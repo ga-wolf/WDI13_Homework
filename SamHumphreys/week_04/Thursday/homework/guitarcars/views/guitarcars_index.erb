@@ -1,0 +1,15 @@
+<div class="index">
+  <div class="index_divs left">
+    <% @guitarcars.each do |car| %>
+      <p>
+        <a href="/guitarcars/<%= car['id'] %>">
+          <%= car['name'] %>
+        </a>
+      </p>
+    <% end %>
+  </div>
+  <div class="index_divs right">
+    <img class="hippies" src="http://favim.com/orig/201105/01/Favim.com-30362.jpg">
+
+  </div>
+</div>

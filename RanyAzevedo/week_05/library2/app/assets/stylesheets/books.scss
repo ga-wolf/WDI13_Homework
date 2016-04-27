@@ -1,0 +1,93 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
+body{
+  background-color: lavender;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-color: gainsboro;
+  padding: 20px;
+  margin: -10px -10px 0px -10px;
+  box-shadow: 2px 2px 2px white;
+
+}
+
+h1, h2 {
+  font-family: 'Righteous', cursive;
+  text-shadow: 2px 2px 2px white;
+
+}
+
+a{
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:visited{
+  color: white;
+}
+
+a:visited:hover{
+  color: purple;
+  text-shadow: 2px 2px 2px white;
+}
+
+.thumb {
+  width: 150px;
+  height: 230px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 10%;
+  opacity: 0.3;
+}
+
+.thumb:hover {
+  opacity: 1;
+  box-shadow: 2px 2px 2px purple;
+
+
+}
+
+.thumb2 {
+  width: 150px;
+  height: 150px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 50%;
+}
+
+.feature {
+  width: 15em;
+  box-shadow: 2px 2px 2px black;
+}
+
+.content {
+  text-align: center;
+  display: inline-block;
+  max-width: 80%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+fieldset {
+  border: none;
+  min-width: 85px;
+}
+
+
+label {
+  width: 70px;
+  display: inline-block;
+}
+
+fieldset:hover{
+  background-color: gainsboro;
+}

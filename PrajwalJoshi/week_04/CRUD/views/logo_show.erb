@@ -1,0 +1,18 @@
+<div class="display">
+  <div class=row>
+    <div class="col-md-6">
+      <img src="<%= @logo[0]['image']%>" alt="" height="300" width="300">
+    </div>
+    <div class="col-md-6">
+      <h2><%= @logo[0]['origin']%></h2>
+      <p>Year:
+        <%= @logo[0]['year']%></p>
+      <p>
+        <%= @logo[0]['more_info']%></p>
+    </div>
+  </div>
+  <div class="edit-delete">
+    <a href="/logos/<%= @logo[0]['id'] %>/delete">Delete</a>
+    <a href="/logos/<%= @logo[0]['id'] %>/edit">Edit</a>
+  </div>
+</div>

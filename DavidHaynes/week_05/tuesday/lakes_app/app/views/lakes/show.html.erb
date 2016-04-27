@@ -1,0 +1,10 @@
+<h1><%= @lake.name %></h1>
+<p><%= image_tag @lake.image %></p>
+<p>Main Country: <%= @lake.country %></p>
+<p>Minor Country: <%= @lake.country_other %></p>
+<p>Volume(km3): <%= @lake.volume %></p>
+<p>Area (km2): <%= @lake.area %></p>
+<p>Max. Depth (m): <%= @lake.max_depth %></p>
+
+<%= link_to("Edit Lake", lake_edit_path) %>
+<%= button_to("Delete Lake", lake_delete_path) %>

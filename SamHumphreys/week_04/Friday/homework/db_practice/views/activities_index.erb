@@ -1,0 +1,13 @@
+<div class="show left">
+<% @activities.each do |activity|%>
+  <h2>
+    <a href="/activities/<%= activity.id %>">
+      <%= activity.name %>
+    </a>
+  </h2>
+<% end %>
+</div>
+
+<div class="show right">
+  <img src="http://www.camping-des-iles.co.uk/usermedia/photo-635158737516547899-1.jpg?dummy=0&h=800">
+</div>

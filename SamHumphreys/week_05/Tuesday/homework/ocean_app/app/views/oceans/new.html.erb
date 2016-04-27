@@ -1,0 +1,15 @@
+<div class="title">
+  <h1>Add New Ocean</h1>
+</div>
+
+<div class="index">
+  <form action="<%= oceans_path %>" method="post">
+    <p><label>Ocean Name: </label><input type="text" name="name" value=""></p>
+    <p><label>Adjoining Seas: </label><input type="text" name="seas" value=""></p>
+    <p><label>Adjoining Continents: </label><input type="text" name="continents" value=""></p>
+    <p><label>Depth: </label><input type="number" name="depth" value=""></p>
+    <p><label>Salinity: </label><input type="number" name="salinity" value=""></p>
+    <p><label>Image: </label><input type="url" name="image" value=""></p>
+    <input type="submit" value="Create Ocean">
+  </form>
+</div>

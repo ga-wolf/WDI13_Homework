@@ -1,0 +1,33 @@
+<div class="box">
+<h1 class="all">Add New Summit</h1>
+
+<!-- <form action="">
+  <label>Name</label><input type="text" name="name">
+  <label>Height</label><input type="text" name="height">
+  <label>Image</label><input type="url" name="image">
+  <label>Country</label><input type="text" name="country">
+  <input type="submit" name="submit">
+</form> -->
+
+<form action="<%= summits_path %>" method="post">
+  <fieldset class="form-group">
+    <label for="formGroupExampleInput">Name</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" name="name">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="formGroupExampleInput2">Height</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Height" name="height">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="formGroupExampleInput">Image</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Image" name="image">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="formGroupExampleInput2">Country</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Country" name="country">
+  </fieldset>
+  <fieldset class="form-group">
+    <button type="submit" class="btn btn-primary">Add Summit</button>
+  </fieldset>
+</form>
+</div>

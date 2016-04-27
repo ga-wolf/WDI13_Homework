@@ -1,0 +1,31 @@
+
+<div class="rsp-container">
+  <h2>Scissors Paper Rock</h2>
+
+  <p>
+    Pick one to play!
+  </p>
+
+  <form class="form" action="/rockscissorspaper/result" method="get">
+    <div class="rsp-form-item">
+      <!--  IS THERE ANOTHER WAY TO MAKE A IMAGE SEND A VALUE? -->
+      <!--  TODO IS THERE ANOTHER WAY TO MAKE A BUTTON INVISIBLE -->
+      <button class="rsp-button" type="submit" name="player" value="rock">
+        <img class="rsp-image" src="assets/rock.jpg" alt=""/>
+      </button>
+    </div>
+
+    <div class="rsp-form-item">
+      <button class="rsp-button" type="submit" name="player" value="scissors">
+        <img class="rsp-image" src="assets/scissors.jpg" alt=""/>
+      </button>
+    </div>
+
+    <div class="rsp-form-item">
+      <button class="rsp-button" type="submit" name="player" value="paper">
+        <img class="rsp-image" src="assets/paper.jpg" alt=""/>
+      </button>
+    </div>
+
+  </form>
+</div>

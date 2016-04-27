@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sam's Activities</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="/">Home</a>
+      <a href="/activities">Show Activities</a>
+      <a href="/activities/new">Create New Activity</a>
+    </nav>
+
+    <div class="main">
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<h1>Photo Search</h1>
+
+<%= form_tag root_path, :id => "search" do %>
+<%= search_field_tag :query %>
+<%= submit_tag "search", class: "btn btn-info" %>
+<% end %>
+<div class="container">
+<div id="results"></div>
+<h3 id="page"></h3>
+</div>

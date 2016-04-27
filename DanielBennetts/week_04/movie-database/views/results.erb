@@ -1,0 +1,16 @@
+<h2><%=@movie_title%></h2>
+<img src="<%=@poster_result%>" alt="">
+<p>Year: <%=@year_result%></p>
+<p>Rating: <%=@rating_result%></p>
+<p>Released: <%=@released_result%></p>
+<p>Runtime: <%=@runtime_result%></p>
+<p>Director: <%=@director_result%></p>
+<p>Starring: <%=@actors_result%></p>
+<p>Plot: <%=@plot_result%></p>
+
+<h2>Search Results:</h2>
+<% if @movie_array %>
+<% @movie_array.each do |movie|%>
+<p><a href="/movies?movie_title=<%= movie['Title'] %>"><%= "Title: #{movie['Title']}"%></a></p>
+<%end%>
+<% end %>

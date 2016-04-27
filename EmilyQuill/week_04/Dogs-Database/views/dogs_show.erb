@@ -1,0 +1,14 @@
+<div class="dogwrapper">
+  <div class="doginfo">
+      <h3>Breed</h3> <p><%= @dog[0]['breed'] %></p>
+      <h3>Type</h3> <p><%= @dog[0]['family'] %></p>
+      <h3>Lifespan</h3> <p><%= @dog[0]['life_span'] %></p>
+        <div class="icons"><a href="<%= @dog[0]['more_info'] %>"><i class="fa fa-external-link"></i></a>
+          <a href="/dogs/<%= @dog[0]['id']%>/edit"><i class="fa fa-pencil"></i></a>
+          <a href="/dogs/<%= @dog[0]['id']%>/delete"><i class="fa fa-trash"></i></a>
+        </div>
+  </div>
+  <div class="dogphoto">
+      <img src="<%= @dog[0]['image']%>" class="dog">
+  </div>
+</div>

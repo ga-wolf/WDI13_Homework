@@ -1,0 +1,7 @@
+<div class="index">
+  <% @oceans.each do |ocean| %>
+    <p>
+      <%= link_to ocean.name, ocean_path(ocean.id)  %>
+    </p>
+  <% end %>
+</div>

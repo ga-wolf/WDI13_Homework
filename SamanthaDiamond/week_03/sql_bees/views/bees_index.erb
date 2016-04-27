@@ -1,0 +1,7 @@
+<% @bees.each do |bee| %>
+<p>
+  <a href="/bees/<%= bee["id"] %>">
+    <%= bee["name"] %>
+  </a>
+</p>
+<% end %>

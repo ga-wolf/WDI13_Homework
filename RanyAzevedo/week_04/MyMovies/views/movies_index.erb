@@ -1,0 +1,12 @@
+
+<h2> Movies </h2>
+
+<% @result["Search"].each do |movie| %>
+<p>
+  <a href="/movies/<%= movie['imdbID'] %>">
+    <%= movie["Title"] %>
+  </a>
+
+</p>
+<% end %>
+<a href="/">Back</a>

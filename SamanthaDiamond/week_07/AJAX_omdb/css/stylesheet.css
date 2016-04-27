@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+/** {
+  background-color: #FF6666;
+}*/
+
+ body {
+   background-image: url("images/background.jpg");
+ }
+
+.container-fluid {
+  font-family: 'Quicksand', sans-serif;
+}
+
+form.form-inline {
+  margin: 40px 0px 40px 0px;
+}

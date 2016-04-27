@@ -1,0 +1,12 @@
+<div class="box">
+  <h1 class="all">All Summits</h1>
+
+<% @summits.each do |summit| %>
+  <p>
+    <%= link_to(summit.name, summit_path(summit.id)) %>
+
+
+  </p>
+
+<% end %>
+</div>

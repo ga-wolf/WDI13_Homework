@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+div#map {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <%= link_to 'Home', '/' %>
+      <%= link_to 'Show Authors', authors_path %>
+      <%= link_to 'Show All Books', books_path %>
+    </nav>
+    <div class="main">
+      <%= yield %>
+    </div>
+
+  </div>
+
+</body>
+</html>

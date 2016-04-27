@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <%= form_for @author do |f| %>
+        <fieldset class="form-group">
+          <%= f.label :title %>
+          <%= f.text_field :title %>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <%= f.label :year %>
+          <%= f.text_field :year %>
+        </fieldset>
+        <fieldset class="form-group">
+          <%= f.label :genre %>
+          <%= f.text_field :genre%>
+        </fieldset>
+        <fieldset class="form-group">
+          <%= f.label :image %>
+          <%= f.url_field :image %>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <%= f.submit %>
+        </fieldset>
+
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

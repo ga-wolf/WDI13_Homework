@@ -1,0 +1,18 @@
+<h2>Edit Games</h2>
+<form action="/games/<%= @game.id%>" method="post">
+  <label>Title:</label>
+  <input name="title" value="<%= @game.title%>">
+
+  <label>Genre:</label>
+  <input name="genre" value="<%= @game.genre%>">
+
+  <label>Console:</label>
+  <input name="console" value="<%= @game.console%>">
+
+  <label>Image:</label>
+  <input type="url" name="image" value="<%= @game.image%>">
+
+
+
+<input type="submit" value="Update Game">
+</form>

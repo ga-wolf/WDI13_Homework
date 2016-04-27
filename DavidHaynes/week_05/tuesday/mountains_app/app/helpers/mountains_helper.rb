@@ -1,0 +1,3 @@
+module MountainsHelper
+
+end

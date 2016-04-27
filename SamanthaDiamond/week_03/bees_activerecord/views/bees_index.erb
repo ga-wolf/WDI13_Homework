@@ -1,0 +1,11 @@
+<% @bees.each do |bee| %>
+<div class="info">
+    <p>
+        <a href="/bees/<%= bee.id %>">
+          <%= bee.name %>
+          <img class="feature" src="<%= bee.image %>">
+          <%=  %>
+        </a>
+    </p>
+</div>
+<% end %>

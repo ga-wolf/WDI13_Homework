@@ -1,0 +1,40 @@
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 75px;
+}
+body{
+  margin-top: 100px;
+  text-align: center;
+  color: #173e43;
+  background-color: #3fb0ac;
+}
+
+
+img{
+  text-align: center;
+  height: 400px;
+  width: 400 px;
+}
+form{
+  margin: 10px;
+  font-size: 30px;
+}
+.header {
+  /*padding-left: 10px;*/
+  background-color: rgba(215, 155, 113, 0.4);
+    position: fixed;
+    height: 50px;
+    top: 0;
+    width: 1465px;
+    z-index: 100;
+    margin-left: -30px;
+    border: solid #312c32 2px;
+    font-size: 30px;
+}
+a{
+  text-align: center;
+  margin-right: 20px;
+  color: #312c32;
+  text-decoration: none;
+}

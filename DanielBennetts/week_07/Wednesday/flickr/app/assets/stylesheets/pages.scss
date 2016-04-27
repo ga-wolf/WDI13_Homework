@@ -1,0 +1,22 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Lobster', sans-serif;
+  padding: 15px;
+}
+
+#search {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#results {
+  text-align: center;
+  margin: 0 auto;
+}

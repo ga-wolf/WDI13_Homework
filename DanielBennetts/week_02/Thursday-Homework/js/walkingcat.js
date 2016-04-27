@@ -28,7 +28,6 @@ var nyanCat = function() {
 
 window.setInterval(nyanCat, 5);
 
-
 var tCat = document.getElementById('toast');
 tCat.style.top = '0px';
 

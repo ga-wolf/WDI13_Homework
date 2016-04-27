@@ -1,0 +1,6 @@
+<h1> <%= @author.name %> </h1>
+<li><%= image_tag(@author.image, :class => "feature") %></li>
+<li><%= @author.dob %></li>
+</ul>
+<%= link_to "Edit Author", edit_author_path(@author) %>
+<%= link_to "Delete Author", @author, :method=> :delete %>

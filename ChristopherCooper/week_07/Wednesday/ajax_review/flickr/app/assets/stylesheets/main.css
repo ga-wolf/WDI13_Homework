@@ -1,0 +1,15 @@
+body {
+  background-color: #DFDFDF;
+}
+
+
+
+
+#results {
+  display: inline-block;
+}
+
+#results > div {
+  padding: 5px;
+  border: 1px solid #000;
+}

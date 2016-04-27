@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+  background: gainsboro;
+}
+
+div {
+  background: papayawhip;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+form {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1 {
+  font-family: 'Poiret One',sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: 'Poiret One',sans-serif;
+  color: black;
+}
+
+p {
+  font-family: 'Poiret One', sans-serif;
+  color: black;
+}

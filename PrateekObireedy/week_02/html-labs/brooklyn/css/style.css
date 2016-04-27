@@ -11,43 +11,37 @@ Link Hover Color = #20222a
 
 */
 h1 {
-	text-align: center;
 	font-size: 40px;
 	line-height: 17px;
 	color:#9F9FA8;
 	font-family: "Times New Roman", serif;
 }
 h2{
-	text-align: center;
 	line-height: 17px;
 	font-family: 17px;
 	color: #656565;
 }
 body{
-	text-align: center;
 	font-size: 12px;
 	line-height: 17px;
 
 }
 #date{
-	text-align:center;
 	color: blue;
 	font-size: 12px;
 }
 
 
 #Read{
-	text-align: center;
 	color: blue;
 	font-size: 12px;
 }
 .al img{
-	text-align: center;
 	border: 5px solid #E5E5EA;
 	display: inline-block;
-	padding: 2px;
+	padding: 1px;
 }
-.container{
-	text-align: center;
-	max-width: 900px;
+#container{
+	max-width: 960px;
+	margin: 0 auto;
 }

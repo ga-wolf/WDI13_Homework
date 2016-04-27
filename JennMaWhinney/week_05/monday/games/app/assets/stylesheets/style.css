@@ -1,0 +1,10 @@
+body{
+
+}
+.container{
+  background-image: url(clown.jpg);
+  background-size: contain;
+  width: 400px;
+  height: 800px;
+  margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+body {
+  background: lemonchiffon;
+}
+
+div.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+
+img {
+  
+}
+
+
+h1, p{
+  text-align: center;
+
+}

@@ -1,0 +1,13 @@
+<h1>Pictures Search</h1>
+<hr>
+
+<!-- //not a crowdsystem, just pass data to somewhere -->
+<div class="container">
+
+<%= form_tag root_path, :id => 'search' do %>
+  <%= search_field_tag :query, 'borboleta' %>
+  <%= submit_tag 'Search' %>
+<% end %>
+<br><br>
+<div id="results"> </div>
+</div>

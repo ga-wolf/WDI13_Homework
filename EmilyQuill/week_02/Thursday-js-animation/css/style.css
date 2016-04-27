@@ -1,0 +1,14 @@
+img {
+        position: absolute;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+body {
+  background-image: url('https://sydney.imagination.com/sites/default/files/catwalk_632x359.jpg');
+  background-size: cover;
+}

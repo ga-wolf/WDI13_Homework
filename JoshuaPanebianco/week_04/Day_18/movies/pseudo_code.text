@@ -1,0 +1,18 @@
+1. Set up the files for Sinatra to create html files.
+   public
+     css
+      style.css
+
+   views
+    home.erb
+    layout.erb
+    results.erb
+
+   main.rb
+
+2. Setup the HTML boiler plate in layout.erb
+3. Create h1
+4. create a div with class container that you can put the form input in.
+5. Create the field that ruby can update via a function.
+5. create a function in main.rb that puts the user input and does a search.
+6. 

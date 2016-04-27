@@ -71,3 +71,11 @@ h1{
   font-weight: bolder;
   font-family: 'Montserrat', sans-serif;
 }
+footer{
+  font-size: 20px;
+  text-align: right;
+  height: 30px;
+  weidth: 40px;
+  color: black;
+  background-color: #DEFEA6;
+}

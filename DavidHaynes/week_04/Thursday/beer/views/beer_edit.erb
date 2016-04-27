@@ -1,0 +1,16 @@
+<form action="/beer/<%=@this_beer[0]['id'] %>/edit" method="post">
+    <h2>Edit Beer Information</h2>
+    <p>Beer Name: </p>
+    <input name="name" value=<%= @this_beer[0]['name'] %>>
+
+    <p>Country of Origin: </p>
+    <input name='country' value=<%= @this_beer[0]['country'] %> >
+
+    <p>Class of Beer: </p>
+    <input name="class" value=<%= @this_beer[0]['class'] %>>
+
+    <p>Image URL: </p>
+    <input type="url" name='image' value=<%= @this_beer[0]['image'] %>>
+    <br>
+    <input type="submit" value="Edit Beer">
+</form>

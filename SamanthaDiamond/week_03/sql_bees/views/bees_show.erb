@@ -1,0 +1,9 @@
+<h2> <%= @bee[0]["name"] %></h2>
+
+<p>Produce honey: <%= @bee[0]["honey"] %></p>
+
+<img src="<%= @bee[0]["image"]%>">
+
+<a href="/bees/<%= @bee[0]["id"]%>/delete">DELETE</a>
+
+<a href="/bees/<%= @bee[0]["id"]%>/edit">Edit</a>

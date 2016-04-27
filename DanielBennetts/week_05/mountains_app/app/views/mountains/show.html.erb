@@ -1,0 +1,11 @@
+<h1><%= @mountain.name %></h1>
+
+<p><%= @mountain.country %></p>
+
+<p><%= @mountain.range %></p>
+
+<p><%= @mountain.metres %></p>
+
+<p><%= link_to 'Edit Mountain', mountain_edit_path(@mountain.id) %></p>
+
+<%= button_to 'Destroy Mountain', mountain_delete_path(@mountain.id) %>

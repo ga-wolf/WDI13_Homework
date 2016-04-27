@@ -1,0 +1,10 @@
+
+
+<h2>  <%= @website.name %> </h2>
+<p> <a href="<%= @website.link %>" target="_blank"> Website </a> </p>
+
+<p> <%= @website.help %> </p>
+<br><br>
+<a class="button" href="/websites/<%= @website.id%>/delete"> Delete </a>
+
+<a class='button' href="/websites/<%= @website.id%>/edit"> Edit </a>

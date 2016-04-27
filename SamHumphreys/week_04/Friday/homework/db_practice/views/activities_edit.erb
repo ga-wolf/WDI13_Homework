@@ -1,0 +1,19 @@
+<div class="show left edit">
+
+  <h2>Edit: <%= @activity.name%></h2>
+
+  <form action="/activities/<%= @activity.id %>" method="post">
+    <p><label>Activity Name: </label>
+    <input type="text" name="name" value="<%=@activity.name%>"></p>
+    <p><label>Minimum People Required: </label>
+    <input type="number" name="people" value="<%=@activity.people%>"></p>
+    <p><label>Special Equipment Required: </label>
+    <input type="text" name="equipment" value="<%= @activity.equipment %>"></p>
+    <p><label>Risks: </label>
+    <input type="text" name="risk" value="<%= @activity.risk %>"></p>
+    <p><label>Picture URL: </label>
+    <input type="text" name="image" value="<%= @activity.image %>"></p>
+    <p><input type="submit" value="Update Activity"></p>
+  </form>
+
+</div>

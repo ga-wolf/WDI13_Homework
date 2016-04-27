@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1 class="all-authors">All Authors</h1>
+
+        <% @authors.each do |author| %>
+          <%= image_tag(author.image, :class => 'thumb') %>
+          <ul>
+            <li class="bullet"><%= link_to(author.name, author) %></li>
+            <li class="bullet"><%= author.nationality %></li>
+            <li class="bullet"><%= author.dob.strftime '%A %e %B, %Y' unless author.dob.nil? %></li>
+          </ul>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

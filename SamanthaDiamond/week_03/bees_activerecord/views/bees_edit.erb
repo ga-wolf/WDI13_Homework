@@ -1,0 +1,14 @@
+<h2>Edit Bee</h2>
+
+<form action="/bees/<%= @bee.id %>" method="post">
+  <label>Name:</label>
+  <input name="name" value="<%= @bee.name %>">
+
+  <label>Produce honey:</label>
+  <input name="honey" value="<%= @bee.honey %>">
+
+  <label>Image:</label>
+  <input type="url" name="image" value"<%= @bee.image %>">
+
+  <input type="submit" value="Update bee">
+</form>

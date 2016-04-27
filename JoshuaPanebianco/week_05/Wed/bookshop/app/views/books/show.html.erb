@@ -1,0 +1,9 @@
+<!-- <h1>Books#show</h1>
+<p>Find me in app/views/books/show.html.erb</p> -->
+
+<h1> <%= @book.name %> </h1>
+<%= image_tag(@book.image, :class => "feature") %>
+
+<%= link_to 'Delete book', @book, :method => :delete %>
+
+<%= link_to "Edit book", edit_book_path(@book) %>

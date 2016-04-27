@@ -46,17 +46,26 @@ h1 {
 
 .photo img {
   border: 3px solid #00B97F;
+  align: left;
 }
 
 .bio p {
-  font-family: 'Cabin', sans-serif;
+  font-family: monospace, courier;
   font-size: 20px;
+  line-height: 1.3em;
+  text-align: justify;
 }
 
 h2 {
   font-family: 'VT323';
-  font-size: 30px;
+  font-size: 35px;
 }
 
+.container ul, .container ol {
+  font-family: monospace, courier;
+  font-size: 20px;
+  line-height: 1.3em;
+  li
+}
 
 /* overflow scroll, linear-gradient*/

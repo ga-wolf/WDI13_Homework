@@ -1,0 +1,21 @@
+<h2> Edit Fingerlime </h2>
+<form action="/fingerlimes/<%= @fingerlime[0]['id'] %>" method="post">
+<p>
+<label>Name:</label>
+<input name="name" value="<%= @fingerlime[0]['name'] %>">
+
+<label>Sweetness:</label>
+<input name="sweetness" autocomplete=""value="<%= @fingerlimes[0]['sweetness'] %>">
+
+<label>Bite:</label>
+<input name="bite" autocomplete=""value="<%= @fingerlimes[0]['bite'] %>">
+
+<label>Pop:</label>
+<input name="pop" autocomplete=""value="<%= @fingerlimes[0]['pop'] %>">
+
+<label>Image:</label>
+<input type="url" name="image" value="<%= @fingerlimes[0]['image'] %>">
+
+<input type="submit" value="Update Fingerlime">
+</p>
+</form>

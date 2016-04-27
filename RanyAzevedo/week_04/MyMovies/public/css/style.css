@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+div.container{
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+body{
+  background: mintcream;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+  letter-spacing: .4em;
+  font-family: 'Poiret One', cursive;
+  text-shadow: 5px 4px 4px gainsboro;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 6px 4px -4px black;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  letter-spacing: .2em;
+  text-shadow: 2px 2px 4px gainsboro;
+}
+
+a {
+  color: navy;
+  text-align: left;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gainsboro;
+}
+
+img {
+  box-shadow: 2px 2px 2px black;
+  opacity: 0.4;
+}
+img:hover {
+  opacity: 1;
+}
+
+
+input[type=text] {padding:20px;
+  border:2px solid #ccc;
+  width: 300px;
+-webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+input[type=text]:focus {border-color:#333; }
+
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#224269), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #224269, #65a9d7);
+   background: -moz-linear-gradient(top, #224269, #65a9d7);
+   background: -ms-linear-gradient(top, #224269, #65a9d7);
+   background: -o-linear-gradient(top, #224269, #65a9d7);
+   padding: 6.5px 13px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 11px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }

@@ -1,0 +1,10 @@
+<h2><%= @this_beer[0]['name'] %></h2>
+
+<p>This beer is from: <%= @this_beer[0]['country'] %></p>
+
+<p>It is a <%= @this_beer[0]['class'] %></p>
+
+<img class='show' src="<%= @this_beer[0]['image'] %>" alt="<%= @this_beer[0]['name'] %> image">
+<br>
+<a href="/beer/<%= @this_beer[0]['id'] %>/delete">Delete</a>
+<a href="/beer/<%= @this_beer[0]['id'] %>/edit">Edit</a>

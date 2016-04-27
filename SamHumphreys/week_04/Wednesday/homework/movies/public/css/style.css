@@ -1,0 +1,35 @@
+body {
+  background-color: gainsboro;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+}
+
+.header {
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+ul {
+  border: 1px solid black;
+  margin: 0 auto;
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+.display {
+  width: 40%;
+  display:inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,5 @@
+<h1>All Simpsons</h1>
+
+<% @simpsons.each do |s| %>
+<a href="/simpsons/<%=s["id"] %>"><%= s["name"]%></a>   
+<% end %>

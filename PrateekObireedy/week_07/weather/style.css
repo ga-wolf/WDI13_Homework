@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+  background-color: lightblue;
+  font-family: 'Bubblegum Sans', cursive;
+}
+img{
+  height: 300px;
+  width : 350px;
+}
+button{
+  width: 1000px;
+}
+.container{
+  width: 1099px;
+}

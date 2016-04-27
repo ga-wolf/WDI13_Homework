@@ -1,0 +1,35 @@
+
+<%= form_for @book do |f| %>
+  <fieldset>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :year_published %>
+    <%= f.text_field :year_published %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :summary %>
+    <%= f.text_field :summary %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :style %>
+    <%= f.text_field :style %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :image %>
+    <%= f.url_field :image %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :author_id %>
+    <%= f.select :author_id, Author.pluck(:name, :id), :include_blank => true %>
+    <!-- include_blank allows a blank option on the form so you can add a new artist ^^  -->
+  </fieldset>
+
+  <%= f.submit %>
+<% end %>

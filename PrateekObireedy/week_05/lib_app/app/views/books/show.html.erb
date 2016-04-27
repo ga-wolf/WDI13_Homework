@@ -1,0 +1,16 @@
+<h1>Books#show</h1>
+
+<h1><%= @book.title %></h1>
+
+<%= image_tag(@book.image, :class => "feature") %>
+
+<ul>
+  <% unless @book.artist.nil? %>
+    <%= link_to @book.artist.name, @book.artist %>
+  <% end %>
+  <li><%= @book.year %></li>
+  <li><%= @book.generates %></li>
+</ul>
+
+<%= link_to "Delete Book", @book, :method => "delete" %>
+<%= link_to "Edit Book", edit_work_path(@book) %>

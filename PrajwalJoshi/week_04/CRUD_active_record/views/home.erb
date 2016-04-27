@@ -1,0 +1,6 @@
+<h2> Batman Logos </h2>
+<div class="list-group">
+<% @logos.each do |logo| %>
+  <div><a class="list-group-item" href="/logo/<%= logo.id %>"><%= logo.origin%></a></div>
+<% end %>
+</div>

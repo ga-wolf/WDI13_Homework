@@ -1,0 +1,11 @@
+
+<div class="circle">
+
+<h2> <%= @categorie.name %> </h2>
+
+<p> <a href="/categories/<%= @categorie.website %>" target="_blank"> Website </a> </p>
+<p> <%= @categorie.description %> </p>
+</div>
+<br><br>
+<a class="button" href="/categories/<%= @categorie.id%>/delete"> Delete </a>
+<a class="button" href="/categories/<%= @categorie.id%>/edit"> Edit </a>

@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <%= form_for @author do |f| %>
+        <fieldset class="form-group">
+          <i class="fa fa-user"></i>
+          <%= f.label :name %>
+          <%= f.text_field :name %>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <i class="fa fa-globe"></i>
+          <%= f.label :nationality %>
+          <%= f.text_field :nationality %>
+        </fieldset>
+        <fieldset class="form-group">
+          <i class="fa fa-birthday-cake"></i>
+          <%= f.label :dob %>
+          <%= f.text_field :dob, :placeholder => 'YYYY/MM/DD' %>
+        </fieldset>
+        <fieldset class="form-group">
+          <i class="fa fa-picture-o"></i>
+          <%= f.label :image %>
+          <%= f.url_field :image %>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <%= f.submit %>
+        </fieldset>
+
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

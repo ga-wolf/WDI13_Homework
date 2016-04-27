@@ -1,0 +1,18 @@
+<h2>Rebake Your Cake</h2>
+
+<div class="form">
+<form action="/cakes/<%= @cake.id %>" method="post">
+  <label>Name:</label>
+  <input name="name" value="<%= @cake.name %>">
+
+  <label>Image:</label>
+  <input type="url" name="image" value="<%= @cake.image %>">
+
+  <label>Recipe:</label>
+  <input type="recipe" name="recipe" value="<%= @cake.recipe %>">
+
+  <div class="button">
+  <input type="submit" value="Rebake Cake">
+  </div>
+</form>
+</div>

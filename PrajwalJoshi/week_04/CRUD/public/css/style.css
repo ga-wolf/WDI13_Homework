@@ -1,0 +1,45 @@
+body{
+  background-color: #eeeeee
+}
+.body-container{
+  margin-top: 35px;
+
+
+}
+h2{
+  text-align: center;
+  padding: 30px;
+}
+
+.form-group{
+  width: 600px;
+  margin:80px auto;
+}
+
+
+.submit-button{
+  background-color: #222222;
+  color: #ffffff
+}
+
+.submit-button:hover{
+  background-color: #000000;
+  color: #ffffff
+}
+
+.list-group-item{
+  text-align: center;
+}
+
+.list-group{
+  width:600px;
+  margin:50px auto;
+}
+.edit-delete{
+  text-align: right;
+  color: #222222;
+}
+
+.display{
+  width:600px;
+}
