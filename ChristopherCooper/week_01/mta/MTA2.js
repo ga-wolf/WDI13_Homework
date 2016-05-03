@@ -19,7 +19,7 @@ var v = 0; // index of Union Square on that line
 var w = 0; // index of starting Line
 
 var x = 0; // index of endStation
-var y = 0; // index of Union Sqaure on that Line
+var y = 0; // index of Union Square on that Line
 var z = 0; // index of ending line
 
 var startLeg = [];
