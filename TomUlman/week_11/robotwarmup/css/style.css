@@ -1,0 +1,42 @@
+
+.container
+{
+    max-width: 960;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+
+.board
+{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 25vh;
+}
+
+
+.box
+{
+    display: inline-block;
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    border: 5px solid #10000;
+    border: 5px solid rgba(10, 0, 0, .8);
+    border-radius: 10px;
+}
+
+.player1
+{
+    background-color: #10000;
+    background-color: rgba(10, 0, 0, .8);
+    background-image: url('../images/x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
